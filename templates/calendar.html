@@ -55,7 +55,7 @@
                   '#388E3C', '#F57C00', '#E64A19', '#689F38', '#AFB42B'
                  ];
 
-    var userInfo = '{{ userInfo }}';
+    var userInfo = JSON.parse('{{ userInfo }}');
     var freeSchedule = '{{ freeSchedule }}';
     $(document).ready(function() {
       $.getJSON({

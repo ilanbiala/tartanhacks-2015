@@ -7,7 +7,7 @@ import base64
 import sys
 import urllib.parse
 app = Flask(__name__)
-
+app.jinja_env.autoescape = False
 urllib.parse.uses_netloc.append("postgres")
 url = urllib.parse.urlparse('postgres://zqirlutztjyaov:ceb3bv_TL8S_9KjggKchociRsN@ec2-54-225-199-245.compute-1.amazonaws.com:5432/d7193dajm703tu')
 
@@ -48,6 +48,7 @@ def calendar():
 
 			free_time=['']
 			#free_time = freetime(users_dict, user[0][5])
+			print(user[0][5],file=sys.stderr)
 
 			return render_template('calendar.html', freeSchedule = free_time, userInfo = user[0][5])
 		else:
