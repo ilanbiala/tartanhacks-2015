@@ -93,7 +93,9 @@ Colors: Use the following - https://www.google.com/design/spec/style/color.html#
   padding: 5px! important;
 }
 
-/* Added by Ilan to remove bottom border */
+/* Added by Ilan */
+
+/* removes random empty box */
 .fc-divider.ui-widget-header {
   display: none !important;
 }

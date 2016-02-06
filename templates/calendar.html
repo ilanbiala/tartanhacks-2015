@@ -12,7 +12,7 @@
     }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.0/fullcalendar.min.css">
-  <link rel="stylesheet" href="../static/materialFullCalendar.css">
+  <link rel="stylesheet" href="../static/css/calendar.css">
   <script src="../static/js/angular.min.js"></script>
   <script src="../static/js/jquery-2.2.0.min.js"></script>
   <script src="../static/js/moment.min.js"></script>
@@ -32,12 +32,12 @@
     $(document).ready(function() {
       $.get({
         url: '../static/varun_schedule.json',
-      }).done(function(schedule) {
+      }).done(function(userInfo) {
         var startIndex = 7;
         var currentIndex = 0;
         var classColors = {};
 
-        schedule.forEach(function(course) {
+        userInfo.schedule.forEach(function(course) {
           if (!classColors[course.course]) {
             classColors[course.course] = colors[startIndex + currentIndex];
             course.color = colors[startIndex + currentIndex];
@@ -75,7 +75,7 @@
           eventClick: function() {
             console.log('an event has been clicked');
           },
-          events: schedule
+          events: userInfo.schedule
         });
       }).fail(function() {
         alert('error occured');
