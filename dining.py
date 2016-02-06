@@ -31,4 +31,4 @@ def restaurants_available(day, starth, startm, endh, endm, d):
 	print(s)
 	return s
 
-restaurants_available(5,20,1,21,2)
+# restaurants_available(5,20,1,21,2)
