@@ -23,10 +23,6 @@ conn = psycopg2.connect(
 
 @app.route('/calendar', methods=['get','post'])
 def index():
-	return render_template('calendar.html')
-
-@app.route('/login', methods = ['get','post'])
-def login():
 	if request.method == 'POST':
 		user_id = (request.form['username'])
 		user_pw = (request.form['password'])
@@ -39,11 +35,11 @@ def login():
 			#print("Correct Password", file=sys.stderr)
 			return render_template('calendar.html')
 		else:
-			return render_template('login.html', password_match = 'false')
+			return render_template('index.html', password_match = 'false')
 
-	return render_template('login.html')
+	return render_template('calendar.html')
 
-@app.route('/register', methods = ['get','post'])
+@app.route('/', methods = ['get','post'])
 def register():
 	if request.method == 'POST':
 		user_id = (request.form['username'])
@@ -58,12 +54,12 @@ def register():
 			data  = (user_id, encrypted_pw)
 			sql.execute(query,data)
 			conn.commit()
-			return render_template('login.html')
+			return render_template('index.html', password_match = 'true')
 
 		else:
-			return render_template('register.html', password_match = 'false')
+			return render_template('index.html', password_match = 'false')
 
-	return render_template('register.html', password_match = 'null')
+	return render_template('index.html')
 
 
 if __name__ == '__main__':
