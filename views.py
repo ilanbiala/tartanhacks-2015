@@ -25,9 +25,10 @@ def login():
 		encrypted_pw = user[0][1]
 		decrypted_pw = (base64.b64decode(encrypted_pw).decode('utf8'))
 		if user_pw == decrypted_pw:
-			print("Correct Password", file=sys.stderr)
-			#Aggregate_data()
+			#print("Correct Password", file=sys.stderr)
 			return render_template('index.html')
+		else:
+			return render_template('login.html', password_match = 'false')
 
 	return render_template('login.html')
 
@@ -39,6 +40,7 @@ def register():
 		user_pw_re = (request.form['password_re'])
 
 		if(user_pw == user_pw_re):
+			#Aggregate_data()
 			encrypted_pw = base64.b64encode(bytes(user_pw, 'utf8')).decode('utf8')
 			#print("Password Matching %s" %encrypted_pw, type(encrypted_pw), file=sys.stderr)
 			query = "INSERT INTO andrewUsers (id, password) VALUES (%s,%s)"

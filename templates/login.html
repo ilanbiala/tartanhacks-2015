@@ -2,9 +2,21 @@
 <link rel="stylesheet" type="text/css" href="../static/css/login.css">
 <html>
 <head>
+
+<script type=text/javascript>
+
+function initialize() {
+	var password_mismatch = '{{ password_match }}';
+	if(password_mismatch == 'false'){
+		var link = document.getElementById("d");
+		link.innerHTML = "Incorrect Password";
+	}
+}
+</script>
+
 <h1> CMU Meets </h1>
 </head>
-<body>
+<body onload="initialize();">
 	<div class="container">
 	<section id="content">
 		<form action="/login" method='POST'>
@@ -16,8 +28,11 @@
 				<input type="password" placeholder="Password" required="" id="password" name="password"/>
 			</div>
 			<div>
-				<input type="submit" value="Log in" />
-				<a href="/register">Sign-Up</a>
+				<input type="submit" value="Log In" />
+				<b id="d" /> <br>
+			</div>
+			<div>
+				<a href="/register">Register</a>
 			</div>
 		</form><!-- form -->
 	</section><!-- content -->
