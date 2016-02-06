@@ -1,13 +1,13 @@
 import requests
 import json
 
-r = requests.get('http://apis.scottylabs.org/dining/v1/locations')
+# r = requests.get('http://apis.scottylabs.org/dining/v1/locations')
 
-d = r.json()
+# d = r.json()
 
 # 0 is Sunday, 6 is Saturday
 
-def restaurants_available(day, starth, startm, endh, endm):
+def restaurants_available(day, starth, startm, endh, endm, d):
 	rests = []
 	for x in d["locations"]:
 		for s in x["times"]:

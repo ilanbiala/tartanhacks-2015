@@ -14,24 +14,31 @@ my_data = { "courses": { "15251": { "coreqs": "", "department": "Computer Scienc
 
 def freetime(users, my_data):
 
+    r = requests.get('http://apis.scottylabs.org/dining/v1/locations')
+    d = r.json()
+
     freet =  [[[] for j in range(28)] for i in range(7)]
 
     # datetime.datetime(year, month, day[, hour[, minute[, second[, microsecond[, tzinfo]]]]])
     # begin = dateutil.parser.parse("2016-01-11T08:00:00-05:00")
 
-    for name in users:
-        for day in range(7):
-            begin = datetime(2016,1,10+day,8,0)
-            endtime = datetime(2016,1,10+day,8,30)
-            for hour in range(28):
-                time_avail = True
-                for my_event in my_data["schedule"]:
-                    start = dateutil.parser.parse(my_event["start"])
-                    end = dateutil.parser.parse(my_event["end"])
-                    if (start<=begin and begin<end) or (start<endtime and endtime<=end):
-                        time_avail=False
-                        break
-                if time_avail:
+    all_time_free=[]
+
+
+    for day in range(7):
+        begin = datetime(2016,1,10+day,8,0)
+        endtime = datetime(2016,1,10+day,8,30)
+        for hour in range(28):
+            time_avail = True
+            for my_event in my_data["schedule"]:
+                start = dateutil.parser.parse(my_event["start"])
+                end = dateutil.parser.parse(my_event["end"])
+                if (start<=begin and begin<end) or (start<endtime and endtime<=end):
+                    time_avail=False
+                    break
+            if time_avail:
+                people_avail = []
+                for name in users:
                     ufree=True
                     for event in users[name]["schedule"]:
                         start = dateutil.parser.parse(event["start"])
@@ -40,25 +47,16 @@ def freetime(users, my_data):
                             ufree=False
                             break
                     if ufree:
-                        freet[day][hour].append(name)
+                        people_avail.append(name)
 
-                begin += timedelta(minutes=30)
-                endtime += timedelta(minutes=30)
-
-    all_time_free=[]
-
-    for day in range(7):
-        begin = datetime(2016,1,10+day,8,0)
-        endtime = datetime(2016,1,10+day,8,30)
-        for hour in range(28):
-            if freet[day][hour]:
                 curd = {}
                 curd["duration"] = "0:30:00"
                 curd["start"] = begin.isoformat()
                 curd["end"] = endtime.isoformat()
                 curd["title"] = ""
-                curd["friends"] = freet[day][hour]
+                curd["friends"] = people_avail
                 curd["className"] = "free-time"
+                curd["restaurants"] = restaurants_available((begin.isoweekday())%7,begin.hour,begin.minute,endtime.hour,endtime.minute,d)
                 all_time_free.append(curd)
 
             begin += timedelta(minutes=30)
