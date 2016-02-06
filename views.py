@@ -2,7 +2,7 @@ from flask import *
 import psycopg2
 from server import *
 from courses import *
-import freetime
+from freetime import *
 import base64
 import sys
 import urllib.parse
@@ -46,8 +46,7 @@ def calendar():
 				if i[0]!=user_id:
 					users_dict[i[0]]=i[5]
 
-			free_time=['']
-			#free_time=freetime(users_dict, user[0][5])
+			free_time=freetime(users_dict, user[0][5])
 			print(user[0][5],file=sys.stderr)
 
 			return render_template('calendar.html', freeSchedule = free_time, userInfo = user[0][5])

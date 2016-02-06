@@ -3,6 +3,7 @@ import base64, ics
 from courses import *
 import dateutil.parser
 from dining import *
+import json
 
 # dictionary of all user's jsons
 users = {'Rishub': {
@@ -819,7 +820,7 @@ def freetime(users, my_data):
 
     # datetime.datetime(year, month, day[, hour[, minute[, second[, microsecond[, tzinfo]]]]])
     # begin = dateutil.parser.parse("2016-01-11T08:00:00-05:00")
-
+    my_data = eval(my_data)
     all_time_free=[]
 
     for day in range(7):
@@ -827,7 +828,7 @@ def freetime(users, my_data):
         endtime = datetime(2016,1,10+day,8,30)
         for hour in range(28):
             time_avail = True
-            for my_event in my_data["schedule"]:
+            for my_event in my_data:
                 start = dateutil.parser.parse(my_event["start"])
                 end = dateutil.parser.parse(my_event["end"])
                 if (start<=begin and begin<end) or (start<endtime and endtime<=end):
@@ -837,12 +838,14 @@ def freetime(users, my_data):
                 people_avail = []
                 for name in users:
                     ufree=True
-                    for event in users[name]["schedule"]:
-                        start = dateutil.parser.parse(event["start"])
-                        end = dateutil.parser.parse(event["end"])
-                        if (start<=begin and begin<end) or (start<endtime and endtime<=end):
-                            ufree=False
-                            break
+                    for event in eval(users[name]):
+                      if (type(event) == str):
+                        continue
+                      start = dateutil.parser.parse(event["start"])
+                      end = dateutil.parser.parse(event["end"])
+                      if (start<=begin and begin<end) or (start<endtime and endtime<=end):
+                          ufree=False
+                          break
                     if ufree:
                         people_avail.append(name)
 

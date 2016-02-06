@@ -58,91 +58,79 @@
     var userInfo = {{ userInfo }};
     var freeSchedule = {{ freeSchedule }};
     $(document).ready(function() {
-      $.getJSON({
-        url: '../static/my_data.json',
-      }).done(function(userInfo) {
-        $.getJSON({
-          url: '../static/freetimes.json',
-        }).done(function(freeSchedule) {
-          var startIndex = 7;
-          var currentIndex = 0;
-          var classColors = {};
+      var startIndex = 7;
+      var currentIndex = 0;
+      var classColors = {};
 
-          userInfo.schedule.forEach(function(course) {
-            if (!classColors[course.course]) {
-              classColors[course.course] = colors[startIndex + currentIndex];
-              course.color = colors[startIndex + currentIndex];
-              currentIndex++;
-            } else {
-              course.color = classColors[course.course];
-            }
-          });
+      userInfo.forEach(function(course) {
+        if (!classColors[course.course]) {
+          classColors[course.course] = colors[startIndex + currentIndex];
+          course.color = colors[startIndex + currentIndex];
+          currentIndex++;
+        } else {
+          course.color = classColors[course.course];
+        }
+      });
 
-          $('#calendar').fullCalendar({
-            defaultDate: '2016-01-10',
-            slotWidth: 80,
-            height: 720,
-            header: false,
-            allDaySlot: false,
-            theme: true,
-            defaultView: 'agendaWeek',
-            editable: false,
-            displayEventTime: true,
-            displayEventEnd: true,
-            minTime: '08:00:00',
-            maxTime: '22:00:00',
-            columnFormat: {
-              week: 'ddd' // Only show day of the week names
-            },
-            dayClick: function() {
-              console.log('a day has been clicked');
-            },
-            eventClick: function(course, evt) {
-              $('#event-info').css('display', 'block')
-                              .css('background', course.color);
+      $('#calendar').fullCalendar({
+        defaultDate: '2016-01-10',
+        slotWidth: 80,
+        height: 720,
+        header: false,
+        allDaySlot: false,
+        theme: true,
+        defaultView: 'agendaWeek',
+        editable: false,
+        displayEventTime: true,
+        displayEventEnd: true,
+        minTime: '08:00:00',
+        maxTime: '22:00:00',
+        columnFormat: {
+          week: 'ddd' // Only show day of the week names
+        },
+        dayClick: function() {
+          console.log('a day has been clicked');
+        },
+        eventClick: function(course, evt) {
+          $('#event-info').css('display', 'block')
+                          .css('background', course.color);
 
-              if (course.title) {
-                $('#event-info .event').css('display', 'block');
-                $('#event-info .free').css('display', 'none');
+          if (course.title) {
+            $('#event-info .event').css('display', 'block');
+            $('#event-info .free').css('display', 'none');
 
-                $('#event-info .event #course-name').text(course.title);
-                var instructors = '';
-                course.instructors.forEach(function(instructor) {
-                  instructors += instructor + ', ';
-                });
-                $('#event-info .event .instructors').text(instructors.substring(0, instructors.length - 2));
-                $('#event-info .event .location').text(course.location);
-                $('#event-info .event .section').text(course.section);
+            $('#event-info .event #course-name').text(course.title);
+            var instructors = '';
+            course.instructors.forEach(function(instructor) {
+              instructors += instructor + ', ';
+            });
+            $('#event-info .event .instructors').text(instructors.substring(0, instructors.length - 2));
+            $('#event-info .event .location').text(course.location);
+            $('#event-info .event .section').text(course.section);
 
-                var friends = [];
-                course.friends.forEach(function(friend) {
-                  friends.push($('<li>' + friend + '</li>'));
-                });
-                $('#event-info .event .friends').html(friends);
-              } else {
-                $('#event-info .event').css('display', 'none');
-                $('#event-info .free').css('display', 'block');
+            var friends = [];
+            course.friends.forEach(function(friend) {
+              friends.push($('<li>' + friend + '</li>'));
+            });
+            $('#event-info .event .friends').html(friends);
+          } else {
+            $('#event-info .event').css('display', 'none');
+            $('#event-info .free').css('display', 'block');
 
-                var friends = [];
-                course.friends.forEach(function(friend) {
-                  friends.push($('<li>' + friend + '</li>'));
-                });
-                $('#event-info .free .friends').html(friends);
+            var friends = [];
+            course.friends.forEach(function(friend) {
+              friends.push($('<li>' + friend + '</li>'));
+            });
+            $('#event-info .free .friends').html(friends);
 
-                var restaurants = [];
-                course.restaurants.forEach(function(restaurant) {
-                  restaurants.push($('<li>' + restaurant + '</li>'));
-                });
-                $('#event-info .free .restaurants').html(restaurants);
-              }
-            },
-            events: userInfo.schedule.concat(freeSchedule)
-          });
-        }).fail(function() {
-          alert('freetimes error occured');
-        });
-      }).fail(function() {
-        alert('error occured');
+            var restaurants = [];
+            course.restaurants.forEach(function(restaurant) {
+              restaurants.push($('<li>' + restaurant + '</li>'));
+            });
+            $('#event-info .free .restaurants').html(restaurants);
+          }
+        },
+        events: userInfo.concat(freeSchedule)
       });
 
       $(document).keyup(function(e) {
