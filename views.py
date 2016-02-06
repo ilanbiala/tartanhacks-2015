@@ -3,12 +3,22 @@ import psycopg2
 from server import *
 import base64
 import sys
+import urllib.parse
 app = Flask(__name__)
 
-conn = psycopg2.connect(dbname = 'postgres', user = 'postgres', host = 'localhost', password='postgres')
+urllib.parse.uses_netloc.append("postgres")
+url = urllib.parse.urlparse('postgres://zqirlutztjyaov:ceb3bv_TL8S_9KjggKchociRsN@ec2-54-225-199-245.compute-1.amazonaws.com:5432/d7193dajm703tu')
+
+conn = psycopg2.connect(
+    database=url.path[1:],
+    user=url.username,
+    password=url.password,
+    host=url.hostname,
+    port=url.port
+)
 sql = conn.cursor()
-# sql.execute("CREATE TABLE andrewUsers(id VARCHAR(20) PRIMARY KEY, password VARCHAR(20))")
-# conn.commit()
+sql.execute("CREATE TABLE andrewUsers(id VARCHAR(20) PRIMARY KEY, password VARCHAR(20), classes VARCHAR(10000))")
+conn.commit()
 
 @app.route('/index', methods=['get','post'])
 def index():
