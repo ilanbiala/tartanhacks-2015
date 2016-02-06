@@ -1,5 +1,5 @@
 from cmu_auth import authenticate
-import base64, ics
+import base64, ics, json
 from icalendar import Calendar, Event
 from datetime import datetime, timedelta
 
@@ -7,12 +7,15 @@ def get_courses(username, password, semester = 'S16'):
 
     s = authenticate('https://s3.andrew.cmu.edu/sio/index.html', username, password )
     ics_file = s.get('https://s3.andrew.cmu.edu/sio/secure/export/schedule/{0}_semester.ics?semester={0}'.format(semester)).text
-    c = ics.Calendar(ics_file)
 
     cal = Calendar.from_ical(ics_file)
 
+    with open('classes.json') as data_file:
+        classes = json.load(data_file)
+
+
     day_map = {'SU': 0, 'MO': 1, 'TU': 2, 'WE': 3, 'TH': 4, 'FR': 5, 'SA': 6}
-    courses = []
+    course_data = {'courses': {}, 'schedule': []}
     for event in cal.walk():
         if event.name != 'VEVENT': continue
 
@@ -21,18 +24,22 @@ def get_courses(username, password, semester = 'S16'):
         begin = event.get('dtstart').dt
         end = event.get('dtend').dt
 
+        course_title, tmp = event.get('summary').split(" :: ")
+        course_number, course_section = tmp.split(" ")
+        instructors = [x.strip() for x in (event.get('description').split('\n\n')[1].split(":")[1].split(';'))]
+        location = event.get('location').strip()
+
+        if not (course_number in course_data['courses']):
+            course_data['courses'][course_number] = classes['courses'][course_number]
+
         for day in days:
             delta = timedelta(days = day - begin.isoweekday())
 
-            course_title, tmp = event.get('summary').split(" :: ")
-            course_number, course_section = tmp.split(" ")
-            instructors = [x.strip() for x in (event.get('description').split('\n\n')[1].split(":")[1].split(';'))]
-            location = event.get('location').strip()
             start_time = begin + delta
             end_time = end + delta
             duration = end_time - start_time
 
-            courses.append({
+            course_data['schedule'].append({
                 'title': "{}: {}".format(course_number, course_title),
                 'start': start_time.isoformat(),
                 'end': end_time.isoformat(),
@@ -44,8 +51,9 @@ def get_courses(username, password, semester = 'S16'):
             })
 
 
-    return courses
+    return course_data
 
+    # c = ics.Calendar(ics_file)
     # courses = {}
     #
     # for event in c.events:
