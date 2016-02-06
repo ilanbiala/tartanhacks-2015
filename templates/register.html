@@ -1,18 +1,44 @@
 <!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="../static/css/login.css">
 <html>
+<head>
+<script type=text/javascript>
 
-	<head>
+function initialize() {
+	var password_mismatch = '{{ password_match }}';
+	if(password_mismatch == 'false'){
+		var link = document.getElementById("d");
+		link.innerHTML = "Passwords do not match";
+	}
+}
+</script>
 
+<h1> CMU Meets </h1>
+
+</head>
+<body onload="initialize();">
+	<div class="container">
+	<section id="content">
 		<form action="/register" method='POST'>
-		  Username:<br>
-		  <input type="text" id='username' name="username"><br>
-		  Password:<br>
-		  <input type="password" id='password_re' name="password"><br>
-		  Re-enter Password:<br>
-		  <input type="password" id='password_re' name="password_re"><br>
-		  <input type="submit" value="Register">
-		</form>
-
-	</head>
-
+			<h1>Sign-Up</h1>
+			<div>
+				<input type="text" placeholder="Username" required="" id="username" name="username"/>
+			</div>
+			<div>
+				<input type="password" placeholder="Password" required="" id="password" name="password"/>
+			</div>
+			<div>
+				<input type="password" placeholder="Re-enter Password" required="" id="password" name="password_re"/>
+			</div>
+			<div>
+				<input type="submit" value="Submit" />
+				<b id="d" /> <br>
+			</div>
+			<div>
+				<a href="/login">Login</a>
+			</div>
+		</form><!-- form -->
+	</section><!-- content -->
+	</div><!-- container -->
+</body>
 </html>

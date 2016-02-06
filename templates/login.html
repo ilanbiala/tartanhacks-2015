@@ -1,18 +1,26 @@
 <!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="../static/css/login.css">
 <html>
-
-	<head>
-		
+<head>
+<h1> CMU Meets </h1>
+</head>
+<body>
+	<div class="container">
+	<section id="content">
 		<form action="/login" method='POST'>
-		  Username:<br>
-		  <input type="text" id='username' name="username"><br>
-		  Password:<br>
-		  <input type="password" id='password_re' name="password"><br>
-		  <input type="submit" value="Login">
-		</form>
-
-	<input type="button" onclick="location.href = '/register';" value="Register">
-
-	</head>
-
+			<h1>Log In</h1>
+			<div>
+				<input type="text" placeholder="Username" required="" id="username" name="username"/>
+			</div>
+			<div>
+				<input type="password" placeholder="Password" required="" id="password" name="password"/>
+			</div>
+			<div>
+				<input type="submit" value="Log in" />
+				<a href="/register">Sign-Up</a>
+			</div>
+		</form><!-- form -->
+	</section><!-- content -->
+	</div><!-- container -->
+</body>
 </html>
