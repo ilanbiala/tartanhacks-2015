@@ -1,0 +1,25 @@
+[{
+  "title": "73-100: Principles of Economics",
+  "start": "2016-01-11T11:30:00+00:00",
+  "end": "2016-01-11T12:20:00+00:00",
+  "location": "DH-2315",
+  "course": "73-100",
+  "section": "1",
+  "duration": "0:50:00",
+  "instructors": [
+    "Kushnir",
+    "Sleet"
+  ]
+}, {
+  "title": "73-100: Principles of Economics",
+  "start": "2016-01-15T11:30:00+00:00",
+  "end": "2016-01-15T12:20:00+00:00",
+  "location": "PH-A18C",
+  "course": "73-100",
+  "section": "E",
+  "duration": "0:50:00",
+  "instructors": [
+    "Kushnir",
+    "Sleet"
+  ]
+}]

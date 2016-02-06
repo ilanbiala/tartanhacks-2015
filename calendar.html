@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <html lang="en" ng-app="tartanhacks"> -->
+<head>
+  <meta charset="UTF-8">
+  <title>Calendar view</title>
+
+  <style>
+    body {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.0/fullcalendar.min.css">
+  <script src="angular.min.js"></script>
+  <script src="jquery-2.2.0.min.js"></script>
+  <script src="moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.6.0/fullcalendar.min.js"></script>
+</head>
+<body>
+  <!-- <div ng-controller="CalendarController">
+  </div> -->
+  <div id="calendar" style="width: 80%;"></div>
+
+  <script>
+    $(document).ready(function() {
+      $('#calendar').fullCalendar({
+        defaultDate: '2016-01-10',
+        slotWidth: 80,
+        height: 720,
+        header: false,
+        allDaySlot: false,
+        theme: true,
+        defaultView: 'agendaWeek',
+        editable: false,
+        displayEventTime: true,
+        displayEventEnd: true,
+        minTime: '08:00:00',
+        maxTime: '22:00:00',
+        // businessHours: {
+        //   start: '8:30',
+        //   end: '22:00',
+        //   dow: [0, 1, 2, 3, 4, 5, 6]
+        // },
+        dayClick: function() {
+          console.log('a day has been clicked');
+        },
+        eventClick: function() {
+          console.log('an event has been clicked');
+        },
+        events: [{
+          "title": "73-100: Principles of Economics",
+          "start": "2016-01-11T11:30:00+00:00",
+          "end": "2016-01-11T12:20:00+00:00",
+          "location": "DH-2315",
+          "course": "73-100",
+          "section": "1",
+          "duration": "0:50:00",
+          "instructors": [
+            "Kushnir",
+            "Sleet"
+          ]
+        }, {
+          "title": "73-100: Principles of Economics",
+          "start": "2016-01-15T11:30:00+00:00",
+          "end": "2016-01-15T12:20:00+00:00",
+          "location": "PH-A18C",
+          "course": "73-100",
+          "section": "E",
+          "duration": "0:50:00",
+          "instructors": [
+            "Kushnir",
+            "Sleet"
+          ]
+        }]
+      });
+    });
+    // angular
+    //   .module('tartanhacks', [])
+    //   .controller('CalendarController', CalendarController);
+
+    // function CalendarController($scope) {
+    //   var startTime = 8;
+    //   var endTime = 22;
+    //   $scope.times = [];
+    //   for (i = startTime; i <= endTime; i++) {
+    //     $scope.times.push(i);
+    //   }
+    //   $scope.days = [
+    //                'Sunday',
+    //                'Monday',
+    //                'Tuesday',
+    //                'Wednesday',
+    //                'Thursday',
+    //                'Friday',
+    //                'Saturday'
+    //              ];
+    //   // var thead = document.querySelector('thead');
+    //   // times.forEach(function(time) {
+    //     // var th = document.createElement('th');
+    //     // th.innerText = time;
+    //     // thead.appendChild(th);
+    //   // });
+    // }
+
+    // CalendarController.$inject = ['$scope'];
+  </script>
+</body>
+</html>
