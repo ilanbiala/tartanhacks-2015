@@ -130,7 +130,7 @@
 
             var friends = [];
             course.friends.forEach(function(friend) {
-              friends.push($('<li>' + friend + '</li>'));
+              friends.push($('<li class="collection-item">' + friend + '</li>'));
             });
             $('#event-info .event .friends').html(friends);
           } else {

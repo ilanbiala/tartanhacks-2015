@@ -471,8 +471,8 @@ footer .footer-below {
     right: 0;
     background-color: #fafafa;
     padding: 0;
-    max-height: 50% !important; 
-    width: 25% !important;
+    max-height: 330px !important; 
+    width: 420px !important;
     margin: auto;
     overflow-y: hidden !important;
     overflow-x: hidden !important;

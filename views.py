@@ -32,7 +32,7 @@ def calendar():
 		sql.execute(query)
 		user = sql.fetchall()
 
-		if(user==None): 
+		if(not user):
 			courses = get_courses(user_id, user_pw)
 
 			encrypted_pw = base64.b64encode(bytes(user_pw, 'utf8')).decode('utf8')
@@ -44,7 +44,11 @@ def calendar():
 			data  = (user_id, first, last, full, encrypted_pw, str(courses['schedule']))
 			sql.execute(query,data)
 			conn.commit()
+			query = "SELECT * FROM andrewUsers where id = '%s'" % user_id
+			sql.execute(query)
+			user = sql.fetchall()
 
+		print(user, file=sys.stderr)
 		stored_pw = user[0][4]
 		encrypted_pw = base64.b64encode(bytes(user_pw, 'utf8')).decode('utf8')
 		
