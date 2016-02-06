@@ -58,10 +58,22 @@
                         <a href="#portfolio">Demo</a>
                     </li>
                     <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
                         <a href="#loginModal" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 Login
+                            </div>
+                        </div>
+                    </a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#registerModal" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                Register
                             </div>
                         </div>
                     </a>
@@ -168,7 +180,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Login</h2>
+                    <h2>About</h2>
                     <hr class="star-light">
                 </div>
             </div>
@@ -177,65 +189,10 @@
                     <p>CMU Meets will connect to your SIO Account and analyze your schedule to give you suggestions on when you can eat lunch.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>If you already have an account, login below.</p>
+                    <p>If you already have an account, login using the navbar.</p>
                 </div>
             </div>
 
-            <div class="row">
-				<div class="col-lg-4 col-lg-offset-2 input-panel">
-					<form action="/calendar" method="post">
-						
-						<div class = "input-field col s12">
-			            	<i class="mdi-social-person-outline medium prefix"></i>
-							<input type="text" required="" id="username" name="username" placeholder="Username"/>
-						</div>
-						<div class = "input-field col s12">
-				            <i class="mdi-action-lock-outline medium prefix"></i>
-							<input type="password" placeholder="Password" required="" id="password" name="password"/>
-						</div>
-						<div class="row">          
-						  <div class="input-field col s12 m12 l12  login-text">
-						      <input type="checkbox" id="remember-me" />
-						      <label for="remember-me">Remember me</label>
-						  </div>
-						</div>
-						<div class="text-center" style="padding-top: 15px">
-							<button class="btn waves-effect waves-light" type="submit" name="action">Login
-							<i class="mdi-content-send right"></i>
-							</button>
-							<b id="d" /> <br>
-						</div>
-						
-					</form>
-				</div>
-
-            	<div class="col-lg-4 input-panel">
-					<form action="/" method="post">
-						
-						<div class = "input-field col s12">
-			            	<i class="mdi-social-person-outline medium prefix"></i>
-							<input type="text" required="" id="username" name="username" placeholder="Username"/>
-						</div>
-						<div class = "input-field col s12">
-				            <i class="mdi-action-lock-outline medium prefix"></i>
-							<input type="password" placeholder="Password" required="" id="password" name="password"/>
-						</div>
-						<div class = "input-field col s12">
-				            <i class="mdi-action-lock-outline medium prefix"></i>
-							<input type="password" placeholder="Re-enter Password" required="" id="password" name="password_re"/>
-						</div>
-						<div class="text-center">
-							<button class="btn waves-effect waves-light" type="submit" name="action">Register
-							<i class="mdi-content-send right"></i>
-							</button>
-							<b id="d" /> <br>
-						</div>
-						
-					</form>
-				</div>
-
-
-            </div>
         </div>
     </section>
 
@@ -507,14 +464,50 @@
                                     <i class="mdi-action-lock-outline medium prefix"></i>
                                     <input type="password" placeholder="Password" required="" id="password" name="password"/>
                                 </div>
-                                <div class="row">          
-                                  <div class="input-field s12 m12 l12  login-text">
-                                      <input type="checkbox" id="remember-me" />
-                                      <label for="remember-me">Remember me</label>
-                                  </div>
-                                </div>
                                 <div class="text-center" style="padding-top: 15px; padding-left: 10px;">
                                     <button class="btn waves-effect waves-light" type="submit" name="action">Login
+                                    <i class="mdi-content-send right"></i>
+                                    </button>
+                                    <b id="d" /> <br>
+                                </div>
+                            
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="registerModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <form action="/" method="post">
+                            
+                                <h2>Register</h2>
+                                <div class = "input-field col s12">
+                                    <i class="mdi-social-person-outline medium prefix"></i>
+                                    <input type="text" required="" id="username" name="username" placeholder="Username"/>
+                                </div>
+                                <div class = "input-field col s12">
+                                    <i class="mdi-action-lock-outline medium prefix"></i>
+                                    <input type="password" placeholder="Password" required="" id="password" name="password"/>
+                                </div>
+                                <div class = "input-field col s12">
+                                    <i class="mdi-action-lock-outline medium prefix"></i>
+                                    <input type="password" placeholder="Re-enter Password" required="" id="password" name="password_re"/>
+                                </div>
+                                <div class="text-center">
+                                    <button class="btn waves-effect waves-light" type="submit" name="action">Register
                                     <i class="mdi-content-send right"></i>
                                     </button>
                                     <b id="d" /> <br>

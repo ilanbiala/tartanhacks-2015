@@ -482,6 +482,8 @@ footer .footer-below {
     padding:0px !important;
 }
 .input-field{
-    left:-70% !important;
-    width: 160% !important;
+    left: -75% !important;
+}
+.input-field .prefix ~ input, .input-field .prefix ~ textarea {
+    width: 200% !important;
 }
