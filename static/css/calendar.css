@@ -97,6 +97,7 @@ Colors: Use the following - https://www.google.com/design/spec/style/color.html#
 #container {
   display: flex;
   margin: 3% auto 0 auto;
+  max-height: 91vh;
 }
 
 #calendar {
@@ -108,18 +109,26 @@ Colors: Use the following - https://www.google.com/design/spec/style/color.html#
   flex: 1;
   display: none;
   padding: 20px;
+  max-height: inherit;
 }
 
 #event-info .event {
   display: none;
+  max-height: inherit;
 }
 
 #event-info .free {
   display: none;
+  max-height: inherit;
 }
 
 .free-time {
   opacity: 0 !important;
+}
+
+.restaurants {
+  max-height: 400px;
+  overflow-y: scroll;
 }
 
 /* removes random empty box */
