@@ -25,6 +25,7 @@
     <div id="calendar"></div>
     <div id="event-info">
       <div class="event">
+        <h1 id="time"></h1>
         <h2 id="course-name"></h2>
         <h3 class="instructors"></h3>
         <h3 class="location"></h3>
@@ -36,6 +37,7 @@
       </div>
 
       <div class="free">
+        <h1 id="time"></h1>
         <h2>Friends Available</h2>
         <ul class="friends">
           <!-- add friends here -->
@@ -98,7 +100,7 @@
           if (course.title) {
             $('#event-info .event').css('display', 'block');
             $('#event-info .free').css('display', 'none');
-
+            $('#event-info .event #time').text('Time: ' + new Date(course.start));
             $('#event-info .event #course-name').text(course.title);
             var instructors = '';
             course.instructors.forEach(function(instructor) {
@@ -116,6 +118,8 @@
           } else {
             $('#event-info .event').css('display', 'none');
             $('#event-info .free').css('display', 'block');
+
+            $('#event-info .free #time').text('Time: ' + new Date(course.start));
 
             var friends = [];
             course.friends.forEach(function(friend) {
@@ -147,35 +151,6 @@
         }
       });
     });
-    // angular
-    //   .module('tartanhacks', [])
-    //   .controller('CalendarController', CalendarController);
-
-    // function CalendarController($scope) {
-    //   var startTime = 8;
-    //   var endTime = 22;
-    //   $scope.times = [];
-    //   for (i = startTime; i <= endTime; i++) {
-    //     $scope.times.push(i);
-    //   }
-    //   $scope.days = [
-    //                'Sunday',
-    //                'Monday',
-    //                'Tuesday',
-    //                'Wednesday',
-    //                'Thursday',
-    //                'Friday',
-    //                'Saturday'
-    //              ];
-    //   // var thead = document.querySelector('thead');
-    //   // times.forEach(function(time) {
-    //     // var th = document.createElement('th');
-    //     // th.innerText = time;
-    //     // thead.appendChild(th);
-    //   // });
-    // }
-
-    // CalendarController.$inject = ['$scope'];
   </script>
 </body>
 </html>

@@ -1,3778 +1,3778 @@
 [
     {
+        "start": "2016-01-10T08:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
         "end": "2016-01-10T08:30:00",
+        "title": "",
+        "restaurants": [
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-10T08:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Carnegie Mellon Cafe"
-        ],
-        "start": "2016-01-10T08:00:00"
-    },
-    {
         "end": "2016-01-10T09:00:00",
+        "title": "",
+        "restaurants": [
+            "The Underground",
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-10T09:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "Carnegie Mellon Cafe"
-        ],
-        "start": "2016-01-10T08:30:00"
-    },
-    {
         "end": "2016-01-10T09:30:00",
+        "title": "",
+        "restaurants": [
+            "The Underground",
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-10T09:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "Carnegie Mellon Cafe"
-        ],
-        "start": "2016-01-10T09:00:00"
-    },
-    {
         "end": "2016-01-10T10:00:00",
+        "title": "",
+        "restaurants": [
+            "The Underground",
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-10T10:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "Carnegie Mellon Cafe"
-        ],
-        "start": "2016-01-10T09:30:00"
-    },
-    {
         "end": "2016-01-10T10:30:00",
+        "title": "",
+        "restaurants": [
+            "The Underground",
+            "Entropy+",
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-10T10:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Entropy+",
-            "The Underground",
-            "Carnegie Mellon Cafe"
-        ],
-        "start": "2016-01-10T10:00:00"
-    },
-    {
         "end": "2016-01-10T11:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "The Underground",
+            "Entropy+",
+            "Schatz Dining Room",
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-10T11:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Entropy+",
-            "The Underground",
-            "Schatz Dining Room",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe"
-        ],
-        "start": "2016-01-10T10:30:00"
-    },
-    {
         "end": "2016-01-10T11:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Schatz Dining Room",
+            "The Underground",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "Breakfast Express"
+        ]
+    },
+    {
+        "start": "2016-01-10T11:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "Breakfast Express",
-            "Schatz Dining Room",
-            "Entropy+"
-        ],
-        "start": "2016-01-10T11:00:00"
-    },
-    {
         "end": "2016-01-10T12:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Schatz Dining Room",
+            "The Underground",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "Breakfast Express"
+        ]
+    },
+    {
+        "start": "2016-01-10T12:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "Breakfast Express",
-            "Schatz Dining Room",
-            "Entropy+"
-        ],
-        "start": "2016-01-10T11:30:00"
-    },
-    {
         "end": "2016-01-10T12:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Schatz Dining Room",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "Breakfast Express"
+        ]
+    },
+    {
+        "start": "2016-01-10T12:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Schatz Dining Room",
-            "Breakfast Express",
-            "Entropy+"
-        ],
-        "start": "2016-01-10T12:00:00"
-    },
-    {
         "end": "2016-01-10T13:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Schatz Dining Room",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "Breakfast Express"
+        ]
+    },
+    {
+        "start": "2016-01-10T13:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Schatz Dining Room",
-            "Breakfast Express",
-            "Entropy+"
-        ],
-        "start": "2016-01-10T12:30:00"
-    },
-    {
         "end": "2016-01-10T13:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Schatz Dining Room",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "Breakfast Express"
+        ]
+    },
+    {
+        "start": "2016-01-10T13:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Schatz Dining Room",
-            "Breakfast Express",
-            "Entropy+"
-        ],
-        "start": "2016-01-10T13:00:00"
-    },
-    {
         "end": "2016-01-10T14:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Schatz Dining Room",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "Breakfast Express"
+        ]
+    },
+    {
+        "start": "2016-01-10T14:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Schatz Dining Room",
-            "Breakfast Express",
-            "Entropy+"
-        ],
-        "start": "2016-01-10T13:30:00"
-    },
-    {
         "end": "2016-01-10T14:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Schatz Dining Room",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "Breakfast Express"
+        ]
+    },
+    {
+        "start": "2016-01-10T14:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Schatz Dining Room",
-            "Breakfast Express",
-            "Entropy+"
-        ],
-        "start": "2016-01-10T14:00:00"
-    },
-    {
         "end": "2016-01-10T15:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Entropy+",
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-10T15:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Entropy+",
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe"
-        ],
-        "start": "2016-01-10T14:30:00"
-    },
-    {
         "end": "2016-01-10T15:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Entropy+",
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-10T15:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Entropy+",
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe"
-        ],
-        "start": "2016-01-10T15:00:00"
-    },
-    {
         "end": "2016-01-10T16:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Entropy+",
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-10T16:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Entropy+",
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe"
-        ],
-        "start": "2016-01-10T15:30:00"
-    },
-    {
         "end": "2016-01-10T16:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Entropy+",
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-10T16:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Entropy+",
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe"
-        ],
-        "start": "2016-01-10T16:00:00"
-    },
-    {
         "end": "2016-01-10T17:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Entropy+",
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-10T17:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Entropy+",
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe"
-        ],
-        "start": "2016-01-10T16:30:00"
-    },
-    {
         "end": "2016-01-10T17:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Stir Crazy",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Taste of India",
+            "Tartans Pizza",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-10T17:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Taste of India",
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Entropy+",
-            "Stir Crazy",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-10T17:00:00"
-    },
-    {
         "end": "2016-01-10T18:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Stir Crazy",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Taste of India",
+            "Tartans Pizza",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-10T18:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Taste of India",
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Entropy+",
-            "Stir Crazy",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-10T17:30:00"
-    },
-    {
         "end": "2016-01-10T18:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Stir Crazy",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Taste of India",
+            "Tartans Pizza",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-10T18:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Taste of India",
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Entropy+",
-            "Stir Crazy",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-10T18:00:00"
-    },
-    {
         "end": "2016-01-10T19:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Stir Crazy",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Taste of India",
+            "Tartans Pizza",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-10T19:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Taste of India",
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Entropy+",
-            "Stir Crazy",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-10T18:30:00"
-    },
-    {
         "end": "2016-01-10T19:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Stir Crazy",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Taste of India",
+            "Tartans Pizza",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-10T19:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Taste of India",
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Entropy+",
-            "Stir Crazy",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-10T19:00:00"
-    },
-    {
         "end": "2016-01-10T20:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Stir Crazy",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Taste of India",
+            "Tartans Pizza",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-10T20:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Taste of India",
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Entropy+",
-            "Stir Crazy",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-10T19:30:00"
-    },
-    {
         "end": "2016-01-10T20:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Stir Crazy",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Taste of India",
+            "Tartans Pizza",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-10T20:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Taste of India",
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Entropy+",
-            "Stir Crazy",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-10T20:00:00"
-    },
-    {
         "end": "2016-01-10T21:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Stir Crazy",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Taste of India",
+            "Tartans Pizza",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-10T21:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Taste of India",
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Entropy+",
-            "Stir Crazy",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-10T20:30:00"
-    },
-    {
         "end": "2016-01-10T21:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Tartans Pizza",
+            "Entropy+",
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-10T21:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Tartans Pizza",
-            "Entropy+"
-        ],
-        "start": "2016-01-10T21:00:00"
-    },
-    {
         "end": "2016-01-10T22:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Tartans Pizza",
+            "Entropy+",
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-11T08:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Tartans Pizza",
-            "Entropy+"
-        ],
-        "start": "2016-01-10T21:30:00"
-    },
-    {
         "end": "2016-01-11T08:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
         "title": "",
-        "duration": "0:30:00",
         "restaurants": [
             "Stephanie's",
-            "Mitchell's Mainstreet",
+            "La Prima Espresso",
             "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
             "Schatz Dining Room",
-            "Entropy+",
-            "Gingers Express",
-            "Tazza D'Oro",
-            "La Prima Espresso",
-            "SEIber Caf\u00e9"
-        ],
-        "start": "2016-01-11T08:00:00"
-    },
-    {
-        "end": "2016-01-11T09:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "Stephanie's",
-            "Mitchell's Mainstreet",
-            "The Exchange",
             "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "Entropy+",
-            "Gingers Express",
-            "Tazza D'Oro",
-            "La Prima Espresso",
-            "SEIber Caf\u00e9"
-        ],
-        "start": "2016-01-11T08:30:00"
-    },
-    {
-        "end": "2016-01-11T09:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "Stephanie's",
-            "Mitchell's Mainstreet",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "Entropy+",
-            "Gingers Express",
-            "Tazza D'Oro",
-            "La Prima Espresso",
-            "SEIber Caf\u00e9"
-        ],
-        "start": "2016-01-11T09:00:00"
-    },
-    {
-        "end": "2016-01-11T11:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "El Gallo de Oro",
-            "Stephanie's",
-            "Mitchell's Mainstreet",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
-            "Heinz Caf\u00e9",
-            "Entropy+",
-            "Gingers Express",
-            "Tazza D'Oro",
-            "La Prima Espresso",
-            "SEIber Caf\u00e9"
-        ],
-        "start": "2016-01-11T10:30:00"
-    },
-    {
-        "end": "2016-01-11T11:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "El Burrito Grande",
             "SEIber Caf\u00e9",
-            "Nakama",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
+            "Gingers Express",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
             "Mitchell's Mainstreet",
-            "Creperie",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Gingers Express",
-            "La Prima Espresso",
-            "Stephanie's",
-            "The Zebra Lounge",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "Downtown Deli",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-11T11:00:00"
-    },
-    {
-        "end": "2016-01-11T13:00:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "El Burrito Grande",
-            "SEIber Caf\u00e9",
-            "Nakama",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Mitchell's Mainstreet",
-            "Creperie",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "Gingers Express",
-            "La Prima Espresso",
-            "Stephanie's",
-            "The Zebra Lounge",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "Downtown Deli",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-11T12:30:00"
-    },
-    {
-        "end": "2016-01-11T13:30:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "El Burrito Grande",
-            "SEIber Caf\u00e9",
-            "Nakama",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Mitchell's Mainstreet",
-            "Creperie",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "Gingers Express",
-            "La Prima Espresso",
-            "Stephanie's",
-            "The Zebra Lounge",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "Downtown Deli",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-11T13:00:00"
-    },
-    {
-        "end": "2016-01-11T17:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "El Gallo de Oro",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Tartan Express",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
-            "Heinz Caf\u00e9",
-            "City Grill",
-            "Evgefstos",
-            "Tartans Pizza",
-            "Entropy+",
-            "The Pomegranate",
-            "Tazza D'Oro",
-            "La Prima Espresso"
-        ],
-        "start": "2016-01-11T16:30:00"
-    },
-    {
-        "end": "2016-01-11T17:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "Global Flavour",
-            "Nakama",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "La Prima Espresso",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-11T17:00:00"
-    },
-    {
-        "end": "2016-01-11T18:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "Global Flavour",
-            "Nakama",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "La Prima Espresso",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-11T17:30:00"
-    },
-    {
-        "end": "2016-01-11T18:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "Global Flavour",
-            "Nakama",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Maggie Murph Caf\u00e9",
-            "Schatz Dining Room",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-11T18:00:00"
-    },
-    {
-        "end": "2016-01-11T19:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "Global Flavour",
-            "Nakama",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Maggie Murph Caf\u00e9",
-            "Schatz Dining Room",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-11T18:30:00"
-    },
-    {
-        "end": "2016-01-11T19:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "Nakama",
-            "Taste of India",
-            "The Underground",
-            "Asiana",
-            "El Gallo de Oro",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Tartan Express",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill",
-            "Schatz Dining Room",
-            "Entropy+",
-            "Tartans Pizza",
-            "The Pomegranate",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-11T19:00:00"
-    },
-    {
-        "end": "2016-01-11T20:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "Nakama",
-            "Taste of India",
-            "The Underground",
-            "El Gallo de Oro",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill",
-            "Schatz Dining Room",
-            "Entropy+",
-            "Tartans Pizza",
-            "The Pomegranate",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-11T19:30:00"
-    },
-    {
-        "end": "2016-01-11T20:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Nakama",
-            "Taste of India",
-            "The Underground",
-            "El Gallo de Oro",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Entropy+",
-            "The Pomegranate",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-11T20:00:00"
-    },
-    {
-        "end": "2016-01-11T21:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Nakama",
-            "Taste of India",
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Entropy+",
-            "The Pomegranate",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-11T20:30:00"
-    },
-    {
-        "end": "2016-01-11T21:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Tartans Pizza",
-            "Entropy+"
-        ],
-        "start": "2016-01-11T21:00:00"
-    },
-    {
-        "end": "2016-01-11T22:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Tartans Pizza",
-            "Entropy+"
-        ],
-        "start": "2016-01-11T21:30:00"
-    },
-    {
-        "end": "2016-01-12T08:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Stephanie's",
-            "Mitchell's Mainstreet",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
-            "Schatz Dining Room",
-            "Entropy+",
-            "Gingers Express",
-            "Tazza D'Oro",
-            "La Prima Espresso",
-            "SEIber Caf\u00e9"
-        ],
-        "start": "2016-01-12T08:00:00"
-    },
-    {
-        "end": "2016-01-12T09:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "Stephanie's",
-            "Mitchell's Mainstreet",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "Entropy+",
-            "Gingers Express",
-            "Tazza D'Oro",
-            "La Prima Espresso",
-            "SEIber Caf\u00e9"
-        ],
-        "start": "2016-01-12T08:30:00"
-    },
-    {
-        "end": "2016-01-12T13:00:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "SEIber Caf\u00e9",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Mitchell's Mainstreet",
-            "Creperie",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "Gingers Express",
-            "La Prima Espresso",
-            "Stephanie's",
-            "The Zebra Lounge",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "Downtown Deli",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-12T12:30:00"
-    },
-    {
-        "end": "2016-01-12T13:30:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "SEIber Caf\u00e9",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Mitchell's Mainstreet",
-            "Creperie",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "Gingers Express",
-            "La Prima Espresso",
-            "Stephanie's",
-            "The Zebra Lounge",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "Downtown Deli",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-12T13:00:00"
-    },
-    {
-        "end": "2016-01-12T18:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "Global Flavour",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "La Prima Espresso",
-            "Chef's Table",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-12T17:30:00"
-    },
-    {
-        "end": "2016-01-12T18:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "Global Flavour",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Maggie Murph Caf\u00e9",
-            "Schatz Dining Room",
-            "Chef's Table",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-12T18:00:00"
-    },
-    {
-        "end": "2016-01-12T19:00:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "Global Flavour",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Maggie Murph Caf\u00e9",
-            "Schatz Dining Room",
-            "Chef's Table",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-12T18:30:00"
-    },
-    {
-        "end": "2016-01-12T19:30:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "Taste of India",
-            "Chef's Table",
-            "The Underground",
-            "Asiana",
-            "El Gallo de Oro",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Tartan Express",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill",
-            "Schatz Dining Room",
-            "Entropy+",
-            "Tartans Pizza",
-            "The Pomegranate",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-12T19:00:00"
-    },
-    {
-        "end": "2016-01-12T20:00:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "Taste of India",
-            "Chef's Table",
-            "The Underground",
-            "El Gallo de Oro",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill",
-            "Schatz Dining Room",
-            "Entropy+",
-            "Tartans Pizza",
-            "The Pomegranate",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-12T19:30:00"
-    },
-    {
-        "end": "2016-01-12T20:30:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Taste of India",
-            "Chef's Table",
-            "The Underground",
-            "El Gallo de Oro",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Entropy+",
-            "The Pomegranate",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-12T20:00:00"
-    },
-    {
-        "end": "2016-01-12T21:00:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Taste of India",
-            "Chef's Table",
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Entropy+",
-            "The Pomegranate",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-12T20:30:00"
-    },
-    {
-        "end": "2016-01-12T21:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Tartans Pizza",
-            "Entropy+"
-        ],
-        "start": "2016-01-12T21:00:00"
-    },
-    {
-        "end": "2016-01-12T22:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Tartans Pizza",
-            "Entropy+"
-        ],
-        "start": "2016-01-12T21:30:00"
-    },
-    {
-        "end": "2016-01-13T08:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Stephanie's",
-            "Mitchell's Mainstreet",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
-            "Evgefstos",
-            "Schatz Dining Room",
-            "Entropy+",
-            "Gingers Express",
-            "Tazza D'Oro",
-            "La Prima Espresso",
-            "SEIber Caf\u00e9"
-        ],
-        "start": "2016-01-13T08:00:00"
-    },
-    {
-        "end": "2016-01-13T09:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "Stephanie's",
-            "Mitchell's Mainstreet",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
-            "Heinz Caf\u00e9",
-            "Evgefstos",
-            "Schatz Dining Room",
-            "Entropy+",
-            "Gingers Express",
-            "Tazza D'Oro",
-            "La Prima Espresso",
-            "SEIber Caf\u00e9"
-        ],
-        "start": "2016-01-13T08:30:00"
-    },
-    {
-        "end": "2016-01-13T09:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "Stephanie's",
-            "Mitchell's Mainstreet",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
-            "Heinz Caf\u00e9",
-            "Evgefstos",
-            "Schatz Dining Room",
-            "Entropy+",
-            "Gingers Express",
-            "Tazza D'Oro",
-            "La Prima Espresso",
-            "SEIber Caf\u00e9"
-        ],
-        "start": "2016-01-13T09:00:00"
-    },
-    {
-        "end": "2016-01-13T11:00:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "El Gallo de Oro",
-            "Stephanie's",
-            "Mitchell's Mainstreet",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
-            "Heinz Caf\u00e9",
-            "Evgefstos",
-            "Entropy+",
-            "Gingers Express",
-            "Tazza D'Oro",
-            "La Prima Espresso",
-            "SEIber Caf\u00e9"
-        ],
-        "start": "2016-01-13T10:30:00"
-    },
-    {
-        "end": "2016-01-13T11:30:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "SEIber Caf\u00e9",
-            "Nakama",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Mitchell's Mainstreet",
-            "Creperie",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Gingers Express",
-            "La Prima Espresso",
-            "Stephanie's",
-            "The Zebra Lounge",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "Downtown Deli",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-13T11:00:00"
-    },
-    {
-        "end": "2016-01-13T13:00:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "SEIber Caf\u00e9",
-            "Nakama",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Mitchell's Mainstreet",
-            "Creperie",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "Gingers Express",
-            "La Prima Espresso",
-            "Stephanie's",
-            "The Zebra Lounge",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "Downtown Deli",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-13T12:30:00"
-    },
-    {
-        "end": "2016-01-13T13:30:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "SEIber Caf\u00e9",
-            "Nakama",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Mitchell's Mainstreet",
-            "Creperie",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "Gingers Express",
-            "La Prima Espresso",
-            "Stephanie's",
-            "The Zebra Lounge",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "Downtown Deli",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-13T13:00:00"
-    },
-    {
-        "end": "2016-01-13T15:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "SEIber Caf\u00e9",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Mitchell's Mainstreet",
-            "Creperie",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Gingers Express",
-            "La Prima Espresso",
-            "The Zebra Lounge",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "Downtown Deli",
-            "City Grill",
-            "Evgefstos"
-        ],
-        "start": "2016-01-13T14:30:00"
-    },
-    {
-        "end": "2016-01-13T15:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Creperie",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Gingers Express",
-            "La Prima Espresso",
-            "The Zebra Lounge",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "Downtown Deli",
-            "City Grill",
-            "Evgefstos"
-        ],
-        "start": "2016-01-13T15:00:00"
-    },
-    {
-        "end": "2016-01-13T17:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "El Gallo de Oro",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Tartan Express",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
-            "Heinz Caf\u00e9",
-            "City Grill",
-            "Evgefstos",
-            "Tartans Pizza",
-            "Entropy+",
-            "The Pomegranate",
-            "Tazza D'Oro",
-            "La Prima Espresso"
-        ],
-        "start": "2016-01-13T16:30:00"
-    },
-    {
-        "end": "2016-01-13T17:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "Global Flavour",
-            "Nakama",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "La Prima Espresso",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-13T17:00:00"
-    },
-    {
-        "end": "2016-01-13T18:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "Global Flavour",
-            "Nakama",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "La Prima Espresso",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-13T17:30:00"
-    },
-    {
-        "end": "2016-01-13T18:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "Global Flavour",
-            "Nakama",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Maggie Murph Caf\u00e9",
-            "Schatz Dining Room",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-13T18:00:00"
-    },
-    {
-        "end": "2016-01-13T19:00:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "Global Flavour",
-            "Nakama",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Maggie Murph Caf\u00e9",
-            "Schatz Dining Room",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-13T18:30:00"
-    },
-    {
-        "end": "2016-01-13T19:30:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "Nakama",
-            "Taste of India",
-            "The Underground",
-            "Asiana",
-            "El Gallo de Oro",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Tartan Express",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill",
-            "Schatz Dining Room",
-            "Entropy+",
-            "Tartans Pizza",
-            "The Pomegranate",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-13T19:00:00"
-    },
-    {
-        "end": "2016-01-13T20:00:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "Nakama",
-            "Taste of India",
-            "The Underground",
-            "El Gallo de Oro",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill",
-            "Schatz Dining Room",
-            "Entropy+",
-            "Tartans Pizza",
-            "The Pomegranate",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-13T19:30:00"
-    },
-    {
-        "end": "2016-01-13T20:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Nakama",
-            "Taste of India",
-            "The Underground",
-            "El Gallo de Oro",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Evgefstos",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Entropy+",
-            "The Pomegranate",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-13T20:00:00"
-    },
-    {
-        "end": "2016-01-13T21:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Nakama",
-            "Taste of India",
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Evgefstos",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Entropy+",
-            "The Pomegranate",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-13T20:30:00"
-    },
-    {
-        "end": "2016-01-13T21:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Tartans Pizza",
-            "Entropy+"
-        ],
-        "start": "2016-01-13T21:00:00"
-    },
-    {
-        "end": "2016-01-13T22:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Tartans Pizza",
-            "Entropy+"
-        ],
-        "start": "2016-01-13T21:30:00"
-    },
-    {
-        "end": "2016-01-14T08:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Stephanie's",
-            "Mitchell's Mainstreet",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
-            "Schatz Dining Room",
-            "Entropy+",
-            "Gingers Express",
-            "Tazza D'Oro",
-            "La Prima Espresso",
-            "SEIber Caf\u00e9"
-        ],
-        "start": "2016-01-14T08:00:00"
-    },
-    {
-        "end": "2016-01-14T09:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "Stephanie's",
-            "Mitchell's Mainstreet",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "Entropy+",
-            "Gingers Express",
-            "Tazza D'Oro",
-            "La Prima Espresso",
-            "SEIber Caf\u00e9"
-        ],
-        "start": "2016-01-14T08:30:00"
-    },
-    {
-        "end": "2016-01-14T13:00:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "El Burrito Grande",
-            "SEIber Caf\u00e9",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Mitchell's Mainstreet",
-            "Creperie",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "Gingers Express",
-            "La Prima Espresso",
-            "Stephanie's",
-            "The Zebra Lounge",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "Downtown Deli",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-14T12:30:00"
-    },
-    {
-        "end": "2016-01-14T13:30:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "El Burrito Grande",
-            "SEIber Caf\u00e9",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Mitchell's Mainstreet",
-            "Creperie",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "Gingers Express",
-            "La Prima Espresso",
-            "Stephanie's",
-            "The Zebra Lounge",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "Downtown Deli",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-14T13:00:00"
-    },
-    {
-        "end": "2016-01-14T14:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "El Burrito Grande",
-            "SEIber Caf\u00e9",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Mitchell's Mainstreet",
-            "Creperie",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "Gingers Express",
-            "La Prima Espresso",
-            "Stephanie's",
-            "The Zebra Lounge",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "Downtown Deli",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-14T13:30:00"
-    },
-    {
-        "end": "2016-01-14T14:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "El Burrito Grande",
-            "SEIber Caf\u00e9",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Mitchell's Mainstreet",
-            "Creperie",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Gingers Express",
-            "La Prima Espresso",
-            "The Zebra Lounge",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "Downtown Deli",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-14T14:00:00"
-    },
-    {
-        "end": "2016-01-14T16:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Creperie",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Gingers Express",
-            "La Prima Espresso",
-            "The Zebra Lounge",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "Downtown Deli",
-            "City Grill",
-            "Evgefstos"
-        ],
-        "start": "2016-01-14T15:30:00"
-    },
-    {
-        "end": "2016-01-14T16:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "El Gallo de Oro",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Tartan Express",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
-            "Heinz Caf\u00e9",
-            "City Grill",
-            "Evgefstos",
-            "Tartans Pizza",
-            "Entropy+",
-            "The Pomegranate",
-            "Tazza D'Oro",
-            "La Prima Espresso"
-        ],
-        "start": "2016-01-14T16:00:00"
-    },
-    {
-        "end": "2016-01-14T17:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "El Gallo de Oro",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Tartan Express",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
-            "Heinz Caf\u00e9",
-            "City Grill",
-            "Evgefstos",
-            "Tartans Pizza",
-            "Entropy+",
-            "The Pomegranate",
-            "Tazza D'Oro",
-            "La Prima Espresso"
-        ],
-        "start": "2016-01-14T16:30:00"
-    },
-    {
-        "end": "2016-01-14T17:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "Global Flavour",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "La Prima Espresso",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Take Comfort",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-14T17:00:00"
-    },
-    {
-        "end": "2016-01-14T18:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "Global Flavour",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "La Prima Espresso",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Take Comfort",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-14T17:30:00"
-    },
-    {
-        "end": "2016-01-14T18:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "Global Flavour",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Maggie Murph Caf\u00e9",
-            "Schatz Dining Room",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Take Comfort",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-14T18:00:00"
-    },
-    {
-        "end": "2016-01-14T19:00:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "Global Flavour",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Maggie Murph Caf\u00e9",
-            "Schatz Dining Room",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Take Comfort",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-14T18:30:00"
-    },
-    {
-        "end": "2016-01-14T19:30:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "Taste of India",
-            "The Underground",
-            "Asiana",
-            "El Gallo de Oro",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Take Comfort",
-            "Tartan Express",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill",
-            "Schatz Dining Room",
-            "Entropy+",
-            "Tartans Pizza",
-            "The Pomegranate",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-14T19:00:00"
-    },
-    {
-        "end": "2016-01-14T20:00:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "Taste of India",
-            "The Underground",
-            "El Gallo de Oro",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Take Comfort",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill",
-            "Schatz Dining Room",
-            "Entropy+",
-            "Tartans Pizza",
-            "The Pomegranate",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-14T19:30:00"
-    },
-    {
-        "end": "2016-01-14T20:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Taste of India",
-            "The Underground",
-            "El Gallo de Oro",
-            "Take Comfort",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Entropy+",
-            "The Pomegranate",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-14T20:00:00"
-    },
-    {
-        "end": "2016-01-14T21:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Taste of India",
-            "The Underground",
-            "El Gallo de Oro",
-            "Take Comfort",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Entropy+",
-            "The Pomegranate",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-14T20:30:00"
-    },
-    {
-        "end": "2016-01-14T21:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Tartans Pizza",
-            "Entropy+"
-        ],
-        "start": "2016-01-14T21:00:00"
-    },
-    {
-        "end": "2016-01-14T22:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Tartans Pizza",
-            "Entropy+"
-        ],
-        "start": "2016-01-14T21:30:00"
-    },
-    {
-        "end": "2016-01-15T08:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Stephanie's",
-            "Mitchell's Mainstreet",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
-            "Schatz Dining Room",
-            "Entropy+",
-            "Gingers Express",
-            "Tazza D'Oro",
-            "La Prima Espresso",
-            "SEIber Caf\u00e9"
-        ],
-        "start": "2016-01-15T08:00:00"
-    },
-    {
-        "end": "2016-01-15T09:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "Stephanie's",
-            "Mitchell's Mainstreet",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "Entropy+",
-            "Gingers Express",
-            "Tazza D'Oro",
-            "La Prima Espresso",
-            "SEIber Caf\u00e9"
-        ],
-        "start": "2016-01-15T08:30:00"
-    },
-    {
-        "end": "2016-01-15T09:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "Stephanie's",
-            "Mitchell's Mainstreet",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "Entropy+",
-            "Gingers Express",
-            "Tazza D'Oro",
-            "La Prima Espresso",
-            "SEIber Caf\u00e9"
-        ],
-        "start": "2016-01-15T09:00:00"
-    },
-    {
-        "end": "2016-01-15T11:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "The Underground",
-            "El Gallo de Oro",
-            "Stephanie's",
-            "Mitchell's Mainstreet",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
-            "Heinz Caf\u00e9",
-            "Entropy+",
-            "Gingers Express",
-            "Tazza D'Oro",
-            "La Prima Espresso",
-            "SEIber Caf\u00e9"
-        ],
-        "start": "2016-01-15T10:30:00"
-    },
-    {
-        "end": "2016-01-15T11:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "El Burrito Grande",
-            "SEIber Caf\u00e9",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Mitchell's Mainstreet",
-            "Creperie",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Gingers Express",
-            "La Prima Espresso",
-            "Stephanie's",
-            "The Zebra Lounge",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "Downtown Deli",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-15T11:00:00"
-    },
-    {
-        "end": "2016-01-15T13:00:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "El Burrito Grande",
-            "SEIber Caf\u00e9",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Mitchell's Mainstreet",
-            "Creperie",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "Gingers Express",
-            "La Prima Espresso",
-            "Stephanie's",
-            "The Zebra Lounge",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "Downtown Deli",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-15T12:30:00"
-    },
-    {
-        "end": "2016-01-15T13:30:00",
-        "friends": [
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "Tartan Express",
-            "The Exchange",
-            "The Pomegranate",
-            "El Burrito Grande",
-            "SEIber Caf\u00e9",
-            "Taste of India",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Mitchell's Mainstreet",
-            "Creperie",
-            "Maggie Murph Caf\u00e9",
-            "Heinz Caf\u00e9",
-            "Schatz Dining Room",
-            "Gingers Express",
-            "La Prima Espresso",
-            "Stephanie's",
-            "The Zebra Lounge",
-            "Tartans Pizza",
-            "Entropy+",
-            "Tazza D'Oro",
-            "Soup & Salad",
-            "El Gallo de Oro",
-            "Carnegie Mellon Cafe",
-            "Downtown Deli",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill"
-        ],
-        "start": "2016-01-15T13:00:00"
-    },
-    {
-        "end": "2016-01-15T17:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
-        "title": "",
-        "duration": "0:30:00",
-        "restaurants": [
-            "Rice Bowl",
-            "The Underground",
-            "Asiana",
-            "El Gallo de Oro",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "The Zebra Lounge",
-            "City Grill",
-            "Evgefstos",
-            "Schatz Dining Room",
-            "Tartans Pizza",
-            "Entropy+",
             "Tazza D'Oro"
-        ],
-        "start": "2016-01-15T16:30:00"
+        ]
     },
     {
+        "start": "2016-01-11T08:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-11T09:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Stephanie's",
+            "La Prima Espresso",
+            "The Exchange",
+            "Schatz Dining Room",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "SEIber Caf\u00e9",
+            "Gingers Express",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro"
+        ]
+    },
+    {
+        "start": "2016-01-11T09:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-11T09:30:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Stephanie's",
+            "La Prima Espresso",
+            "The Exchange",
+            "Schatz Dining Room",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "SEIber Caf\u00e9",
+            "Gingers Express",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro"
+        ]
+    },
+    {
+        "start": "2016-01-11T10:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-11T11:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "El Gallo de Oro",
+            "Stephanie's",
+            "La Prima Espresso",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "SEIber Caf\u00e9",
+            "Gingers Express",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro"
+        ]
+    },
+    {
+        "start": "2016-01-11T11:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-11T11:30:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Nakama",
+            "Stephanie's",
+            "Rice Bowl",
+            "Gingers Express",
+            "Evgefstos",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro",
+            "El Burrito Grande",
+            "La Prima Espresso",
+            "Downtown Deli",
+            "SEIber Caf\u00e9",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Creperie"
+        ]
+    },
+    {
+        "start": "2016-01-11T12:30:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-11T13:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Nakama",
+            "Stephanie's",
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Gingers Express",
+            "Evgefstos",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro",
+            "El Burrito Grande",
+            "La Prima Espresso",
+            "Downtown Deli",
+            "SEIber Caf\u00e9",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Creperie"
+        ]
+    },
+    {
+        "start": "2016-01-11T13:00:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-11T13:30:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Nakama",
+            "Stephanie's",
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Gingers Express",
+            "Evgefstos",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro",
+            "El Burrito Grande",
+            "La Prima Espresso",
+            "Downtown Deli",
+            "SEIber Caf\u00e9",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Creperie"
+        ]
+    },
+    {
+        "start": "2016-01-11T16:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-11T17:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "El Gallo de Oro",
+            "La Prima Espresso",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Rice Bowl",
+            "Asiana",
+            "The Pomegranate",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "The Zebra Lounge",
+            "City Grill",
+            "Pasta Villaggio",
+            "Tazza D'Oro"
+        ]
+    },
+    {
+        "start": "2016-01-11T17:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-11T17:30:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Nakama",
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Evgefstos",
+            "Tazza D'Oro",
+            "La Prima Espresso",
+            "Carnegie Mellon Cafe",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "Global Flavour",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+"
+        ]
+    },
+    {
+        "start": "2016-01-11T17:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-11T18:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Nakama",
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Evgefstos",
+            "Tazza D'Oro",
+            "La Prima Espresso",
+            "Carnegie Mellon Cafe",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "Global Flavour",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+"
+        ]
+    },
+    {
+        "start": "2016-01-11T18:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-11T18:30:00",
+        "title": "",
+        "restaurants": [
+            "Nakama",
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Evgefstos",
+            "Tazza D'Oro",
+            "Carnegie Mellon Cafe",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "Global Flavour",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+"
+        ]
+    },
+    {
+        "start": "2016-01-11T18:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-11T19:00:00",
+        "title": "",
+        "restaurants": [
+            "Nakama",
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Evgefstos",
+            "Tazza D'Oro",
+            "Carnegie Mellon Cafe",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "Global Flavour",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+"
+        ]
+    },
+    {
+        "start": "2016-01-11T19:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-11T19:30:00",
+        "title": "",
+        "restaurants": [
+            "Nakama",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Schatz Dining Room",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Rice Bowl",
+            "Taste of India",
+            "Asiana",
+            "The Pomegranate",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-11T19:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-11T20:00:00",
+        "title": "",
+        "restaurants": [
+            "Nakama",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Schatz Dining Room",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Rice Bowl",
+            "Taste of India",
+            "The Pomegranate",
+            "Tartans Pizza",
+            "Spinning Salads",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-11T20:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-11T20:30:00",
+        "title": "",
+        "restaurants": [
+            "Nakama",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Taste of India",
+            "The Pomegranate",
+            "Tartans Pizza",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-11T20:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-11T21:00:00",
+        "title": "",
+        "restaurants": [
+            "Nakama",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Taste of India",
+            "The Pomegranate",
+            "Tartans Pizza",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-11T21:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-11T21:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Tartans Pizza",
+            "Entropy+",
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-11T21:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-11T22:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Tartans Pizza",
+            "Entropy+",
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-12T08:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-12T08:30:00",
+        "title": "",
+        "restaurants": [
+            "Stephanie's",
+            "La Prima Espresso",
+            "The Exchange",
+            "Schatz Dining Room",
+            "Maggie Murph Caf\u00e9",
+            "SEIber Caf\u00e9",
+            "Gingers Express",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro"
+        ]
+    },
+    {
+        "start": "2016-01-12T08:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-12T09:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Stephanie's",
+            "La Prima Espresso",
+            "The Exchange",
+            "Schatz Dining Room",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "SEIber Caf\u00e9",
+            "Gingers Express",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro"
+        ]
+    },
+    {
+        "start": "2016-01-12T12:30:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-12T13:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Stephanie's",
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Gingers Express",
+            "Evgefstos",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro",
+            "La Prima Espresso",
+            "Downtown Deli",
+            "SEIber Caf\u00e9",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Creperie"
+        ]
+    },
+    {
+        "start": "2016-01-12T13:00:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-12T13:30:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Stephanie's",
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Gingers Express",
+            "Evgefstos",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro",
+            "La Prima Espresso",
+            "Downtown Deli",
+            "SEIber Caf\u00e9",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Creperie"
+        ]
+    },
+    {
+        "start": "2016-01-12T17:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-12T18:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Evgefstos",
+            "Tazza D'Oro",
+            "La Prima Espresso",
+            "Carnegie Mellon Cafe",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "Global Flavour",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Chef's Table",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+"
+        ]
+    },
+    {
+        "start": "2016-01-12T18:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-12T18:30:00",
+        "title": "",
+        "restaurants": [
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Evgefstos",
+            "Tazza D'Oro",
+            "Carnegie Mellon Cafe",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "Global Flavour",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Chef's Table",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+"
+        ]
+    },
+    {
+        "start": "2016-01-12T18:30:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-12T19:00:00",
+        "title": "",
+        "restaurants": [
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Evgefstos",
+            "Tazza D'Oro",
+            "Carnegie Mellon Cafe",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "Global Flavour",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Chef's Table",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+"
+        ]
+    },
+    {
+        "start": "2016-01-12T19:00:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-12T19:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Schatz Dining Room",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Rice Bowl",
+            "Taste of India",
+            "Chef's Table",
+            "Asiana",
+            "The Pomegranate",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-12T19:30:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-12T20:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Schatz Dining Room",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Rice Bowl",
+            "Taste of India",
+            "Chef's Table",
+            "The Pomegranate",
+            "Tartans Pizza",
+            "Spinning Salads",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-12T20:00:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-12T20:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Taste of India",
+            "Chef's Table",
+            "The Pomegranate",
+            "Tartans Pizza",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-12T20:30:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-12T21:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Taste of India",
+            "Chef's Table",
+            "The Pomegranate",
+            "Tartans Pizza",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-12T21:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-12T21:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Tartans Pizza",
+            "Entropy+",
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-12T21:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-12T22:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Tartans Pizza",
+            "Entropy+",
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-13T08:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-13T08:30:00",
+        "title": "",
+        "restaurants": [
+            "Stephanie's",
+            "La Prima Espresso",
+            "The Exchange",
+            "Schatz Dining Room",
+            "Maggie Murph Caf\u00e9",
+            "SEIber Caf\u00e9",
+            "Gingers Express",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "The Zebra Lounge",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro"
+        ]
+    },
+    {
+        "start": "2016-01-13T08:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-13T09:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Stephanie's",
+            "La Prima Espresso",
+            "The Exchange",
+            "Schatz Dining Room",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "SEIber Caf\u00e9",
+            "Gingers Express",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "The Zebra Lounge",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro"
+        ]
+    },
+    {
+        "start": "2016-01-13T09:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-13T09:30:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Stephanie's",
+            "La Prima Espresso",
+            "The Exchange",
+            "Schatz Dining Room",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "SEIber Caf\u00e9",
+            "Gingers Express",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "The Zebra Lounge",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro"
+        ]
+    },
+    {
+        "start": "2016-01-13T10:30:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-13T11:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "El Gallo de Oro",
+            "Stephanie's",
+            "La Prima Espresso",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "SEIber Caf\u00e9",
+            "Gingers Express",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "The Zebra Lounge",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro"
+        ]
+    },
+    {
+        "start": "2016-01-13T11:00:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-13T11:30:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Nakama",
+            "Stephanie's",
+            "Rice Bowl",
+            "Gingers Express",
+            "Evgefstos",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro",
+            "La Prima Espresso",
+            "Downtown Deli",
+            "SEIber Caf\u00e9",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Creperie"
+        ]
+    },
+    {
+        "start": "2016-01-13T12:30:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-13T13:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Nakama",
+            "Stephanie's",
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Gingers Express",
+            "Evgefstos",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro",
+            "La Prima Espresso",
+            "Downtown Deli",
+            "SEIber Caf\u00e9",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Creperie"
+        ]
+    },
+    {
+        "start": "2016-01-13T13:00:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-13T13:30:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Nakama",
+            "Stephanie's",
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Gingers Express",
+            "Evgefstos",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro",
+            "La Prima Espresso",
+            "Downtown Deli",
+            "SEIber Caf\u00e9",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Creperie"
+        ]
+    },
+    {
+        "start": "2016-01-13T14:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-13T15:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Rice Bowl",
+            "Gingers Express",
+            "Evgefstos",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro",
+            "La Prima Espresso",
+            "Downtown Deli",
+            "SEIber Caf\u00e9",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "The Pomegranate",
+            "City Grill",
+            "Pasta Villaggio",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Creperie"
+        ]
+    },
+    {
+        "start": "2016-01-13T15:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-13T15:30:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Rice Bowl",
+            "Gingers Express",
+            "Evgefstos",
+            "Tazza D'Oro",
+            "La Prima Espresso",
+            "Downtown Deli",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "The Pomegranate",
+            "City Grill",
+            "Pasta Villaggio",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Creperie"
+        ]
+    },
+    {
+        "start": "2016-01-13T16:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-13T17:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "El Gallo de Oro",
+            "La Prima Espresso",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Rice Bowl",
+            "Asiana",
+            "The Pomegranate",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "The Zebra Lounge",
+            "City Grill",
+            "Pasta Villaggio",
+            "Tazza D'Oro"
+        ]
+    },
+    {
+        "start": "2016-01-13T17:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-13T17:30:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Nakama",
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Evgefstos",
+            "Tazza D'Oro",
+            "La Prima Espresso",
+            "Carnegie Mellon Cafe",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "Global Flavour",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+"
+        ]
+    },
+    {
+        "start": "2016-01-13T17:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-13T18:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Nakama",
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Evgefstos",
+            "Tazza D'Oro",
+            "La Prima Espresso",
+            "Carnegie Mellon Cafe",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "Global Flavour",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+"
+        ]
+    },
+    {
+        "start": "2016-01-13T18:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-13T18:30:00",
+        "title": "",
+        "restaurants": [
+            "Nakama",
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Evgefstos",
+            "Tazza D'Oro",
+            "Carnegie Mellon Cafe",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "Global Flavour",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+"
+        ]
+    },
+    {
+        "start": "2016-01-13T18:30:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-13T19:00:00",
+        "title": "",
+        "restaurants": [
+            "Nakama",
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Evgefstos",
+            "Tazza D'Oro",
+            "Carnegie Mellon Cafe",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "Global Flavour",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+"
+        ]
+    },
+    {
+        "start": "2016-01-13T19:00:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-13T19:30:00",
+        "title": "",
+        "restaurants": [
+            "Nakama",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Schatz Dining Room",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Rice Bowl",
+            "Taste of India",
+            "Asiana",
+            "The Pomegranate",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-13T19:30:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-13T20:00:00",
+        "title": "",
+        "restaurants": [
+            "Nakama",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Schatz Dining Room",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Rice Bowl",
+            "Taste of India",
+            "The Pomegranate",
+            "Tartans Pizza",
+            "Spinning Salads",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-13T20:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-13T20:30:00",
+        "title": "",
+        "restaurants": [
+            "Nakama",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Taste of India",
+            "The Pomegranate",
+            "Tartans Pizza",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-13T20:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-13T21:00:00",
+        "title": "",
+        "restaurants": [
+            "Nakama",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Taste of India",
+            "The Pomegranate",
+            "Tartans Pizza",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-13T21:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-13T21:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Tartans Pizza",
+            "Entropy+",
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-13T21:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-13T22:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Tartans Pizza",
+            "Entropy+",
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-14T08:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-14T08:30:00",
+        "title": "",
+        "restaurants": [
+            "Stephanie's",
+            "La Prima Espresso",
+            "The Exchange",
+            "Schatz Dining Room",
+            "Maggie Murph Caf\u00e9",
+            "SEIber Caf\u00e9",
+            "Gingers Express",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro"
+        ]
+    },
+    {
+        "start": "2016-01-14T08:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-14T09:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Stephanie's",
+            "La Prima Espresso",
+            "The Exchange",
+            "Schatz Dining Room",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "SEIber Caf\u00e9",
+            "Gingers Express",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro"
+        ]
+    },
+    {
+        "start": "2016-01-14T12:30:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-14T13:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Stephanie's",
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Gingers Express",
+            "Evgefstos",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro",
+            "El Burrito Grande",
+            "La Prima Espresso",
+            "Downtown Deli",
+            "SEIber Caf\u00e9",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Creperie"
+        ]
+    },
+    {
+        "start": "2016-01-14T13:00:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-14T13:30:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Stephanie's",
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Gingers Express",
+            "Evgefstos",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro",
+            "El Burrito Grande",
+            "La Prima Espresso",
+            "Downtown Deli",
+            "SEIber Caf\u00e9",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Creperie"
+        ]
+    },
+    {
+        "start": "2016-01-14T13:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-14T14:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Stephanie's",
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Gingers Express",
+            "Evgefstos",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro",
+            "El Burrito Grande",
+            "La Prima Espresso",
+            "Downtown Deli",
+            "SEIber Caf\u00e9",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Creperie"
+        ]
+    },
+    {
+        "start": "2016-01-14T14:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-14T14:30:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Rice Bowl",
+            "Gingers Express",
+            "Evgefstos",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro",
+            "El Burrito Grande",
+            "La Prima Espresso",
+            "Downtown Deli",
+            "SEIber Caf\u00e9",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "The Pomegranate",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Creperie"
+        ]
+    },
+    {
+        "start": "2016-01-14T15:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-14T16:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Rice Bowl",
+            "Gingers Express",
+            "Evgefstos",
+            "Tazza D'Oro",
+            "La Prima Espresso",
+            "Downtown Deli",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "The Pomegranate",
+            "City Grill",
+            "Pasta Villaggio",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Creperie"
+        ]
+    },
+    {
+        "start": "2016-01-14T16:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-14T16:30:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "El Gallo de Oro",
+            "La Prima Espresso",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Rice Bowl",
+            "Asiana",
+            "The Pomegranate",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "The Zebra Lounge",
+            "City Grill",
+            "Pasta Villaggio",
+            "Tazza D'Oro"
+        ]
+    },
+    {
+        "start": "2016-01-14T16:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-14T17:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "El Gallo de Oro",
+            "La Prima Espresso",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Rice Bowl",
+            "Asiana",
+            "The Pomegranate",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "The Zebra Lounge",
+            "City Grill",
+            "Pasta Villaggio",
+            "Tazza D'Oro"
+        ]
+    },
+    {
+        "start": "2016-01-14T17:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-14T17:30:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Schatz Dining Room",
+            "Take Comfort",
+            "Rice Bowl",
+            "Evgefstos",
+            "Tazza D'Oro",
+            "La Prima Espresso",
+            "Carnegie Mellon Cafe",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "Global Flavour",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+"
+        ]
+    },
+    {
+        "start": "2016-01-14T17:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-14T18:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Schatz Dining Room",
+            "Take Comfort",
+            "Rice Bowl",
+            "Evgefstos",
+            "Tazza D'Oro",
+            "La Prima Espresso",
+            "Carnegie Mellon Cafe",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "Global Flavour",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+"
+        ]
+    },
+    {
+        "start": "2016-01-14T18:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-14T18:30:00",
+        "title": "",
+        "restaurants": [
+            "Schatz Dining Room",
+            "Take Comfort",
+            "Rice Bowl",
+            "Evgefstos",
+            "Tazza D'Oro",
+            "Carnegie Mellon Cafe",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "Global Flavour",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+"
+        ]
+    },
+    {
+        "start": "2016-01-14T18:30:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-14T19:00:00",
+        "title": "",
+        "restaurants": [
+            "Schatz Dining Room",
+            "Take Comfort",
+            "Rice Bowl",
+            "Evgefstos",
+            "Tazza D'Oro",
+            "Carnegie Mellon Cafe",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "Global Flavour",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+"
+        ]
+    },
+    {
+        "start": "2016-01-14T19:00:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-14T19:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Schatz Dining Room",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "Take Comfort",
+            "Rice Bowl",
+            "Taste of India",
+            "The Underground",
+            "Asiana",
+            "The Pomegranate",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-14T19:30:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-14T20:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Schatz Dining Room",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "Take Comfort",
+            "Rice Bowl",
+            "Taste of India",
+            "The Underground",
+            "The Pomegranate",
+            "Tartans Pizza",
+            "Spinning Salads",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-14T20:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-14T20:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "Take Comfort",
+            "The Underground",
+            "Taste of India",
+            "The Pomegranate",
+            "Tartans Pizza",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-14T20:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-14T21:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Take Comfort",
+            "The Underground",
+            "Taste of India",
+            "The Pomegranate",
+            "Tartans Pizza",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-14T21:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-14T21:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Tartans Pizza",
+            "Entropy+",
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-14T21:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-14T22:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Tartans Pizza",
+            "Entropy+",
+            "Carnegie Mellon Cafe"
+        ]
+    },
+    {
+        "start": "2016-01-15T08:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-15T08:30:00",
+        "title": "",
+        "restaurants": [
+            "Stephanie's",
+            "La Prima Espresso",
+            "The Exchange",
+            "Schatz Dining Room",
+            "Maggie Murph Caf\u00e9",
+            "SEIber Caf\u00e9",
+            "Gingers Express",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro"
+        ]
+    },
+    {
+        "start": "2016-01-15T08:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-15T09:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Stephanie's",
+            "La Prima Espresso",
+            "The Exchange",
+            "Schatz Dining Room",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "SEIber Caf\u00e9",
+            "Gingers Express",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro"
+        ]
+    },
+    {
+        "start": "2016-01-15T09:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-15T09:30:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Stephanie's",
+            "La Prima Espresso",
+            "The Exchange",
+            "Schatz Dining Room",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "SEIber Caf\u00e9",
+            "Gingers Express",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro"
+        ]
+    },
+    {
+        "start": "2016-01-15T10:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-15T11:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "El Gallo de Oro",
+            "Stephanie's",
+            "La Prima Espresso",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "SEIber Caf\u00e9",
+            "Gingers Express",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro"
+        ]
+    },
+    {
+        "start": "2016-01-15T11:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-15T11:30:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Stephanie's",
+            "Rice Bowl",
+            "Gingers Express",
+            "Evgefstos",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro",
+            "El Burrito Grande",
+            "La Prima Espresso",
+            "Downtown Deli",
+            "SEIber Caf\u00e9",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Creperie"
+        ]
+    },
+    {
+        "start": "2016-01-15T12:30:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-15T13:00:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Stephanie's",
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Gingers Express",
+            "Evgefstos",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro",
+            "El Burrito Grande",
+            "La Prima Espresso",
+            "Downtown Deli",
+            "SEIber Caf\u00e9",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Creperie"
+        ]
+    },
+    {
+        "start": "2016-01-15T13:00:00",
+        "className": "free-time",
+        "friends": [
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-15T13:30:00",
+        "title": "",
+        "restaurants": [
+            "Heinz Caf\u00e9",
+            "Stephanie's",
+            "Schatz Dining Room",
+            "Rice Bowl",
+            "Gingers Express",
+            "Evgefstos",
+            "Mitchell's Mainstreet",
+            "Tazza D'Oro",
+            "El Burrito Grande",
+            "La Prima Espresso",
+            "Downtown Deli",
+            "SEIber Caf\u00e9",
+            "Carnegie Mellon Cafe",
+            "The Zebra Lounge",
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Taste of India",
+            "The Pomegranate",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill",
+            "The Exchange",
+            "The Underground",
+            "Asiana",
+            "Tartans Pizza",
+            "Tartan Express",
+            "Spinning Salads",
+            "Entropy+",
+            "Creperie"
+        ]
+    },
+    {
+        "start": "2016-01-15T16:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
+        "end": "2016-01-15T17:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Schatz Dining Room",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Rice Bowl",
+            "Asiana",
+            "Tartans Pizza",
+            "Spinning Salads",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "The Zebra Lounge",
+            "City Grill",
+            "Pasta Villaggio",
+            "Tazza D'Oro"
+        ]
+    },
+    {
+        "start": "2016-01-15T17:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
         "end": "2016-01-15T17:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
         "title": "",
-        "duration": "0:30:00",
         "restaurants": [
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "Take Comfort",
             "Rice Bowl",
             "Taste of India",
             "The Underground",
             "Asiana",
-            "El Gallo de Oro",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Take Comfort",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill",
             "Tartans Pizza",
+            "Spinning Salads",
             "Entropy+",
-            "Tazza D'Oro",
             "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-15T17:00:00"
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "City Grill",
+            "Pasta Villaggio",
+            "Tazza D'Oro",
+            "Spice It Up Grill"
+        ]
     },
     {
+        "start": "2016-01-15T17:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
         "end": "2016-01-15T18:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
         "title": "",
-        "duration": "0:30:00",
         "restaurants": [
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "Take Comfort",
             "Rice Bowl",
             "Taste of India",
             "The Underground",
             "Asiana",
-            "El Gallo de Oro",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Take Comfort",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill",
             "Tartans Pizza",
+            "Spinning Salads",
             "Entropy+",
-            "Tazza D'Oro",
             "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-15T17:30:00"
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "City Grill",
+            "Pasta Villaggio",
+            "Tazza D'Oro",
+            "Spice It Up Grill"
+        ]
     },
     {
+        "start": "2016-01-15T18:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
         "end": "2016-01-15T18:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
         "title": "",
-        "duration": "0:30:00",
         "restaurants": [
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Take Comfort",
             "Rice Bowl",
             "Taste of India",
             "The Underground",
             "Asiana",
-            "El Gallo de Oro",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Take Comfort",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill",
             "Tartans Pizza",
+            "Spinning Salads",
             "Entropy+",
-            "Tazza D'Oro",
             "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-15T18:00:00"
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "City Grill",
+            "Pasta Villaggio",
+            "Tazza D'Oro",
+            "Spice It Up Grill"
+        ]
     },
     {
+        "start": "2016-01-15T18:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
         "end": "2016-01-15T19:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
         "title": "",
-        "duration": "0:30:00",
         "restaurants": [
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Take Comfort",
             "Rice Bowl",
             "Taste of India",
             "The Underground",
             "Asiana",
-            "El Gallo de Oro",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Take Comfort",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill",
             "Tartans Pizza",
+            "Spinning Salads",
             "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "City Grill",
+            "Pasta Villaggio",
             "Tazza D'Oro",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-15T18:30:00"
+            "Spice It Up Grill"
+        ]
     },
     {
+        "start": "2016-01-15T19:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
         "end": "2016-01-15T19:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
         "title": "",
-        "duration": "0:30:00",
         "restaurants": [
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Take Comfort",
             "Rice Bowl",
             "Taste of India",
             "The Underground",
             "Asiana",
-            "El Gallo de Oro",
-            "Spinning Salads",
-            "Pasta Villaggio",
-            "Take Comfort",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "City Grill",
-            "Evgefstos",
-            "Spice It Up Grill",
             "Tartans Pizza",
+            "Spinning Salads",
             "Entropy+",
             "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-15T19:00:00"
+            "Carnegie Mellon Cafe",
+            "Evgefstos",
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill"
+        ]
     },
     {
+        "start": "2016-01-15T19:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
         "end": "2016-01-15T20:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
         "title": "",
-        "duration": "0:30:00",
         "restaurants": [
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Take Comfort",
             "Rice Bowl",
             "Taste of India",
             "The Underground",
-            "El Gallo de Oro",
+            "Tartans Pizza",
             "Spinning Salads",
-            "Pasta Villaggio",
-            "Take Comfort",
-            "Maggie Murph Caf\u00e9",
+            "Entropy+",
+            "Global Flavour",
             "Carnegie Mellon Cafe",
-            "City Grill",
             "Evgefstos",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Entropy+",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-15T19:30:00"
+            "City Grill",
+            "Pasta Villaggio",
+            "Spice It Up Grill"
+        ]
     },
     {
+        "start": "2016-01-15T20:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
         "end": "2016-01-15T20:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
+            "Take Comfort",
+            "The Underground",
+            "Taste of India",
+            "Tartans Pizza",
+            "Entropy+",
+            "Global Flavour",
+            "Carnegie Mellon Cafe",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-15T20:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Taste of India",
-            "The Underground",
-            "El Gallo de Oro",
-            "Take Comfort",
-            "Maggie Murph Caf\u00e9",
-            "Carnegie Mellon Cafe",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Entropy+",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-15T20:00:00"
-    },
-    {
         "end": "2016-01-15T21:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
         "title": "",
-        "duration": "0:30:00",
         "restaurants": [
-            "Taste of India",
-            "The Underground",
             "El Gallo de Oro",
+            "Soup & Salad",
+            "Maggie Murph Caf\u00e9",
             "Take Comfort",
-            "Maggie Murph Caf\u00e9",
+            "The Underground",
+            "Taste of India",
+            "Tartans Pizza",
+            "Entropy+",
+            "Global Flavour",
             "Carnegie Mellon Cafe",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Entropy+",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-15T20:30:00"
+            "Spice It Up Grill"
+        ]
     },
     {
+        "start": "2016-01-15T21:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
         "end": "2016-01-15T21:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "The Underground",
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "Tartans Pizza"
+        ]
+    },
+    {
+        "start": "2016-01-15T21:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Entropy+",
-            "The Underground",
-            "El Gallo de Oro",
-            "Tartans Pizza",
-            "Carnegie Mellon Cafe"
-        ],
-        "start": "2016-01-15T21:00:00"
-    },
-    {
         "end": "2016-01-15T22:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
         "title": "",
-        "duration": "0:30:00",
         "restaurants": [
-            "Entropy+",
+            "El Gallo de Oro",
             "The Underground",
-            "El Gallo de Oro",
-            "Tartans Pizza",
-            "Carnegie Mellon Cafe"
-        ],
-        "start": "2016-01-15T21:30:00"
+            "Entropy+",
+            "Carnegie Mellon Cafe",
+            "Tartans Pizza"
+        ]
     },
     {
+        "start": "2016-01-16T08:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
         "end": "2016-01-16T08:30:00",
+        "title": "",
+        "restaurants": []
+    },
+    {
+        "start": "2016-01-16T08:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [],
-        "start": "2016-01-16T08:00:00"
-    },
-    {
         "end": "2016-01-16T09:00:00",
+        "title": "",
+        "restaurants": []
+    },
+    {
+        "start": "2016-01-16T09:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [],
-        "start": "2016-01-16T08:30:00"
-    },
-    {
         "end": "2016-01-16T09:30:00",
+        "title": "",
+        "restaurants": []
+    },
+    {
+        "start": "2016-01-16T09:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [],
-        "start": "2016-01-16T09:00:00"
-    },
-    {
         "end": "2016-01-16T10:00:00",
+        "title": "",
+        "restaurants": []
+    },
+    {
+        "start": "2016-01-16T10:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [],
-        "start": "2016-01-16T09:30:00"
-    },
-    {
         "end": "2016-01-16T10:30:00",
+        "title": "",
+        "restaurants": [
+            "Maggie Murph Caf\u00e9",
+            "The Exchange"
+        ]
+    },
+    {
+        "start": "2016-01-16T10:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "The Exchange",
-            "Maggie Murph Caf\u00e9"
-        ],
-        "start": "2016-01-16T10:00:00"
-    },
-    {
         "end": "2016-01-16T11:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "Schatz Dining Room",
+            "The Exchange"
+        ]
+    },
+    {
+        "start": "2016-01-16T11:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Schatz Dining Room",
-            "El Gallo de Oro",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9"
-        ],
-        "start": "2016-01-16T10:30:00"
-    },
-    {
         "end": "2016-01-16T11:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Schatz Dining Room",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "Asiana",
+            "Breakfast Express"
+        ]
+    },
+    {
+        "start": "2016-01-16T11:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Asiana",
-            "El Gallo de Oro",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Schatz Dining Room",
-            "Breakfast Express"
-        ],
-        "start": "2016-01-16T11:00:00"
-    },
-    {
         "end": "2016-01-16T12:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Schatz Dining Room",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "Asiana",
+            "Breakfast Express"
+        ]
+    },
+    {
+        "start": "2016-01-16T12:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Asiana",
-            "El Gallo de Oro",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Schatz Dining Room",
-            "Breakfast Express"
-        ],
-        "start": "2016-01-16T11:30:00"
-    },
-    {
         "end": "2016-01-16T12:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Schatz Dining Room",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "Asiana",
+            "Breakfast Express"
+        ]
+    },
+    {
+        "start": "2016-01-16T12:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Asiana",
-            "El Gallo de Oro",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Schatz Dining Room",
-            "Breakfast Express"
-        ],
-        "start": "2016-01-16T12:00:00"
-    },
-    {
         "end": "2016-01-16T13:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Schatz Dining Room",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "Asiana",
+            "Breakfast Express"
+        ]
+    },
+    {
+        "start": "2016-01-16T13:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Asiana",
-            "El Gallo de Oro",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Schatz Dining Room",
-            "Breakfast Express"
-        ],
-        "start": "2016-01-16T12:30:00"
-    },
-    {
         "end": "2016-01-16T13:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Schatz Dining Room",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "Asiana",
+            "Breakfast Express"
+        ]
+    },
+    {
+        "start": "2016-01-16T13:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Asiana",
-            "El Gallo de Oro",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Schatz Dining Room",
-            "Breakfast Express"
-        ],
-        "start": "2016-01-16T13:00:00"
-    },
-    {
         "end": "2016-01-16T14:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Schatz Dining Room",
+            "The Exchange",
+            "Maggie Murph Caf\u00e9",
+            "Asiana",
+            "Breakfast Express"
+        ]
+    },
+    {
+        "start": "2016-01-16T14:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Asiana",
-            "El Gallo de Oro",
-            "The Exchange",
-            "Maggie Murph Caf\u00e9",
-            "Schatz Dining Room",
-            "Breakfast Express"
-        ],
-        "start": "2016-01-16T13:30:00"
-    },
-    {
         "end": "2016-01-16T14:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
         "title": "",
-        "duration": "0:30:00",
         "restaurants": [
-            "Asiana",
             "El Gallo de Oro",
+            "Schatz Dining Room",
             "The Exchange",
             "Maggie Murph Caf\u00e9",
-            "Schatz Dining Room",
+            "Asiana",
             "Breakfast Express"
-        ],
-        "start": "2016-01-16T14:00:00"
+        ]
     },
     {
+        "start": "2016-01-16T14:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
         "end": "2016-01-16T15:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "Asiana"
+        ]
+    },
+    {
+        "start": "2016-01-16T15:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Asiana",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9"
-        ],
-        "start": "2016-01-16T14:30:00"
-    },
-    {
         "end": "2016-01-16T15:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "Asiana"
+        ]
+    },
+    {
+        "start": "2016-01-16T15:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Asiana",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9"
-        ],
-        "start": "2016-01-16T15:00:00"
-    },
-    {
         "end": "2016-01-16T16:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "Asiana"
+        ]
+    },
+    {
+        "start": "2016-01-16T16:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Asiana",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9"
-        ],
-        "start": "2016-01-16T15:30:00"
-    },
-    {
         "end": "2016-01-16T16:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "Asiana"
+        ]
+    },
+    {
+        "start": "2016-01-16T16:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Asiana",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9"
-        ],
-        "start": "2016-01-16T16:00:00"
-    },
-    {
         "end": "2016-01-16T17:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Maggie Murph Caf\u00e9",
+            "Asiana"
+        ]
+    },
+    {
+        "start": "2016-01-16T17:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Asiana",
-            "El Gallo de Oro",
-            "Maggie Murph Caf\u00e9"
-        ],
-        "start": "2016-01-16T16:30:00"
-    },
-    {
         "end": "2016-01-16T17:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Stir Crazy",
+            "Soup & Salad",
+            "Taste of India",
+            "Asiana",
+            "Tartans Pizza",
+            "Global Flavour",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-16T17:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Taste of India",
-            "Asiana",
-            "El Gallo de Oro",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Stir Crazy",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-16T17:00:00"
-    },
-    {
         "end": "2016-01-16T18:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Stir Crazy",
+            "Soup & Salad",
+            "Taste of India",
+            "Asiana",
+            "Tartans Pizza",
+            "Global Flavour",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-16T18:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Taste of India",
-            "Asiana",
-            "El Gallo de Oro",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Stir Crazy",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-16T17:30:00"
-    },
-    {
         "end": "2016-01-16T18:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Stir Crazy",
+            "Soup & Salad",
+            "Taste of India",
+            "Asiana",
+            "Tartans Pizza",
+            "Global Flavour",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-16T18:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Taste of India",
-            "Asiana",
-            "El Gallo de Oro",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Stir Crazy",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-16T18:00:00"
-    },
-    {
         "end": "2016-01-16T19:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Stir Crazy",
+            "Soup & Salad",
+            "Taste of India",
+            "Asiana",
+            "Tartans Pizza",
+            "Global Flavour",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-16T19:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Taste of India",
-            "Asiana",
-            "El Gallo de Oro",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Stir Crazy",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-16T18:30:00"
-    },
-    {
         "end": "2016-01-16T19:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
         "title": "",
-        "duration": "0:30:00",
         "restaurants": [
+            "El Gallo de Oro",
+            "Stir Crazy",
+            "Soup & Salad",
             "Taste of India",
             "Asiana",
-            "El Gallo de Oro",
-            "Spice It Up Grill",
             "Tartans Pizza",
-            "Stir Crazy",
             "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-16T19:00:00"
+            "Spice It Up Grill"
+        ]
     },
     {
+        "start": "2016-01-16T19:30:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
         "end": "2016-01-16T20:00:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Stir Crazy",
+            "Soup & Salad",
+            "Taste of India",
+            "Tartans Pizza",
+            "Global Flavour",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-16T20:00:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Taste of India",
-            "El Gallo de Oro",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Stir Crazy",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-16T19:30:00"
-    },
-    {
         "end": "2016-01-16T20:30:00",
+        "title": "",
+        "restaurants": [
+            "El Gallo de Oro",
+            "Stir Crazy",
+            "Soup & Salad",
+            "Taste of India",
+            "Tartans Pizza",
+            "Global Flavour",
+            "Spice It Up Grill"
+        ]
+    },
+    {
+        "start": "2016-01-16T20:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
-        "restaurants": [
-            "Taste of India",
-            "El Gallo de Oro",
-            "Spice It Up Grill",
-            "Tartans Pizza",
-            "Stir Crazy",
-            "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-16T20:00:00"
-    },
-    {
         "end": "2016-01-16T21:00:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
         "title": "",
-        "duration": "0:30:00",
         "restaurants": [
-            "Taste of India",
             "El Gallo de Oro",
-            "Spice It Up Grill",
-            "Tartans Pizza",
             "Stir Crazy",
+            "Soup & Salad",
+            "Taste of India",
+            "Tartans Pizza",
             "Global Flavour",
-            "Soup & Salad"
-        ],
-        "start": "2016-01-16T20:30:00"
+            "Spice It Up Grill"
+        ]
     },
     {
+        "start": "2016-01-16T21:00:00",
+        "className": "free-time",
+        "friends": [
+            "ildook",
+            "john"
+        ],
+        "duration": "0:30:00",
         "end": "2016-01-16T21:30:00",
-        "friends": [
-            "ildook",
-            "john"
-        ],
-        "className": "free-time",
         "title": "",
-        "duration": "0:30:00",
         "restaurants": [
             "El Gallo de Oro",
             "Tartans Pizza"
-        ],
-        "start": "2016-01-16T21:00:00"
+        ]
     },
     {
-        "end": "2016-01-16T22:00:00",
+        "start": "2016-01-16T21:30:00",
+        "className": "free-time",
         "friends": [
             "ildook",
             "john"
         ],
-        "className": "free-time",
-        "title": "",
         "duration": "0:30:00",
+        "end": "2016-01-16T22:00:00",
+        "title": "",
         "restaurants": [
             "El Gallo de Oro",
             "Tartans Pizza"
-        ],
-        "start": "2016-01-16T21:30:00"
+        ]
     }
 ]

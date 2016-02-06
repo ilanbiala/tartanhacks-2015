@@ -119,7 +119,7 @@ Colors: Use the following - https://www.google.com/design/spec/style/color.html#
 }
 
 .free-time {
-  /*opacity: 0 !important;*/
+  opacity: 0 !important;
 }
 
 /* removes random empty box */
