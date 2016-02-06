@@ -44,6 +44,25 @@ def freetime(users, my_data):
 				begin += timedelta(minutes=30)
 				endtime += timedelta(minutes=30)
 
-	return freet
+	all_time_free=[]
+
+	for day in range(7):
+		begin = datetime(2016,1,10+day,8,0)
+		endtime = datetime(2016,1,10+day,8,30)
+		for hour in range(20):
+			if freet[day][hour]:
+				curd = {}
+				curd["duration"] = "0:30:00"
+				curd["start"] = begin.isoformat()
+				curd["end"] = endtime.isoformat()
+				curd["title"] = ""
+				curd["friends"] = freet[day][hour]
+				curd["className"] = "free-time"
+				all_time_free.append(curd)
+
+			begin += timedelta(minutes=30)
+			endtime += timedelta(minutes=30)
+
+	return all_time_free
 
 print (freetime(users, my_data))
