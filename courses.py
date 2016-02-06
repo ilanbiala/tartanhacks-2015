@@ -34,8 +34,8 @@ def get_courses(username, password, semester = 'S16'):
 
             courses.append({
                 'title': "{}: {}".format(course_number, course_title),
-                'start_time': start_time.isoformat(),
-                'end_time': end_time.isoformat(),
+                'start': start_time.isoformat(),
+                'end': end_time.isoformat(),
                 'location': location,
                 'duration': str(duration),
                 'course': course_number,
