@@ -26,9 +26,9 @@ def restaurants_available(day, starth, startm, endh, endm):
 
 				(s["start"]["day"] < day and s["end"]["day"] > day)):
 				# rests.append(x["name"].endcode('utf-8'))
-				rests.append(x["name"].encode('utf-8'))
+				rests.append(x["name"].encode('utf8').decode('utf8'))
 	s = list(set(rests))
-	print s
+	print(s)
 	return s
 
-restaurants_available(5,20,01,21,02)
+restaurants_available(5,20,1,21,2)
