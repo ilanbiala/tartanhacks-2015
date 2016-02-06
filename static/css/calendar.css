@@ -94,14 +94,27 @@ Colors: Use the following - https://www.google.com/design/spec/style/color.html#
 }
 
 /* Added by Ilan */
+#container {
+  display: flex;
+  margin: 3% auto 0 auto;
+}
+
+#calendar {
+  flex: 4;
+  border: 1px solid black;
+}
+
+#event-info {
+  flex: 1;
+  display: none;
+  background: yellow;
+}
+
+.free-time {
+  /*visibility: hidden;*/
+}
 
 /* removes random empty box */
 .fc-divider.ui-widget-header {
   display: none !important;
-}
-
-/* Added to center and border */
-#calendar {
-  margin: 3% auto 0 auto;
-  border: 1px solid black;
 }

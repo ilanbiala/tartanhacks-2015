@@ -21,7 +21,15 @@
 <body>
   <!-- <div ng-controller="CalendarController">
   </div> -->
-  <div id="calendar" style="width: 80%;"></div>
+  <div id="container">
+    <div id="calendar"></div>
+    <div id="event-info">
+      <h2 id="course-name"></h2>
+      <h3 class="instructors"></h3>
+      <h3 class="location"></h3>
+      <h3 class="section"></h3>
+    </div>
+  </div>
 
   <script>
     var colors = ['#D32F2F', '#C2185B', '#7B1FA2', '#512DA8',
@@ -72,13 +80,32 @@
             // debugger;
             console.log('a day has been clicked');
           },
-          eventClick: function() {
-            console.log('an event has been clicked');
+          eventClick: function(course, event) {
+            $('#event-info').css('display', 'block')
+                            .css('background', course.color);
+            $('#event-info #course-name').text(course.title);
+            var instructors = '';
+            course.instructors.forEach(function(instructor) {
+              instructors += instructor + ', ';
+            });
+            $('#event-info .instructors').text(instructors.substring(0, instructors.length - 2));
+            $('#event-info .location').text(course.location);
+            $('#event-info .section').text(course.section);
           },
           events: userInfo.schedule
         });
       }).fail(function() {
         alert('error occured');
+      });
+
+      $(document).keyup(function(e) {
+        if (e.keyCode == 27) { // escape key maps to keycode `27`
+          $('#event-info').css('display', 'none');
+        }
+      }).click(function(e) {
+        if (e.target.nodeName === 'HTML') {
+          $('#event-info').css('display', 'none');
+        }
       });
     });
     // angular
