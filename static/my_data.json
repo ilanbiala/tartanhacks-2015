@@ -1,887 +1,275 @@
-{
-    "schedule": [
-        {
-            "instructors": [
-                "Bloch",
-                "Garrod"
-            ],
-            "friends": [],
-            "duration": "1:20:00",
-            "course": "15214",
-            "end": "2016-01-12T16:20:00",
-            "section": "1",
-            "location": "WEH- 7500",
-            "title": "15214: Principles of Software Construction: Objects, Design, and Concurrency",
-            "start": "2016-01-12T15:00:00"
-        },
-        {
-            "instructors": [
-                "Bloch",
-                "Garrod"
-            ],
-            "friends": [],
-            "duration": "1:20:00",
-            "course": "15214",
-            "end": "2016-01-14T16:20:00",
-            "section": "1",
-            "location": "WEH- 7500",
-            "title": "15214: Principles of Software Construction: Objects, Design, and Concurrency",
-            "start": "2016-01-14T15:00:00"
-        },
-        {
-            "instructors": [
-                "Garrod"
-            ],
-            "friends": [],
-            "duration": "0:50:00",
-            "course": "15214",
-            "end": "2016-01-13T11:20:00",
-            "section": "B",
-            "location": "GHC- 4101",
-            "title": "15214: Principles of Software Construction: Objects, Design, and Concurrency",
-            "start": "2016-01-13T10:30:00"
-        },
-        {
-            "instructors": [
-                "Haeupler",
-                "O'Donnell"
-            ],
-            "friends": [
-                "Rishub"
-            ],
-            "duration": "1:20:00",
-            "course": "15251",
-            "end": "2016-01-12T10:20:00",
-            "section": "1",
-            "location": "GHC- 4401",
-            "title": "15251: Great Theoretical Ideas in Computer Science",
-            "start": "2016-01-12T09:00:00"
-        },
-        {
-            "instructors": [
-                "Haeupler",
-                "O'Donnell"
-            ],
-            "friends": [
-                "Rishub"
-            ],
-            "duration": "1:20:00",
-            "course": "15251",
-            "end": "2016-01-14T10:20:00",
-            "section": "1",
-            "location": "GHC- 4401",
-            "title": "15251: Great Theoretical Ideas in Computer Science",
-            "start": "2016-01-14T09:00:00"
-        },
-        {
-            "instructors": [
-                "Haeupler",
-                "O'Donnell"
-            ],
-            "friends": [
-                "Rishub"
-            ],
-            "duration": "1:20:00",
-            "course": "15251",
-            "end": "2016-01-13T19:50:00",
-            "section": "1",
-            "location": "DH- 2210",
-            "title": "15251: Great Theoretical Ideas in Computer Science",
-            "start": "2016-01-13T18:30:00"
-        },
-        {
-            "instructors": [
-                "TBA"
-            ],
-            "friends": [],
-            "duration": "0:50:00",
-            "course": "15251",
-            "end": "2016-01-15T11:20:00",
-            "section": "B",
-            "location": "GHC- 4211",
-            "title": "15251: Great Theoretical Ideas in Computer Science",
-            "start": "2016-01-15T10:30:00"
-        },
-        {
-            "instructors": [
-                "Kushnir",
-                "Sleet"
-            ],
-            "friends": [],
-            "duration": "0:50:00",
-            "course": "73100",
-            "end": "2016-01-11T12:20:00",
-            "section": "1",
-            "location": "DH- 2315",
-            "title": "73100: Principles of Economics",
-            "start": "2016-01-11T11:30:00"
-        },
-        {
-            "instructors": [
-                "Kushnir",
-                "Sleet"
-            ],
-            "friends": [],
-            "duration": "0:50:00",
-            "course": "73100",
-            "end": "2016-01-13T12:20:00",
-            "section": "1",
-            "location": "DH- 2315",
-            "title": "73100: Principles of Economics",
-            "start": "2016-01-13T11:30:00"
-        },
-        {
-            "instructors": [
-                "TBA"
-            ],
-            "friends": [],
-            "duration": "0:50:00",
-            "course": "73100",
-            "end": "2016-01-15T12:20:00",
-            "section": "E",
-            "location": "PH- A18C",
-            "title": "73100: Principles of Economics",
-            "start": "2016-01-15T11:30:00"
-        },
-        {
-            "instructors": [
-                "Werner"
-            ],
-            "friends": [
-                "Rishub"
-            ],
-            "duration": "0:50:00",
-            "course": "80180",
-            "end": "2016-01-11T13:20:00",
-            "section": "1",
-            "location": "BH- 136A",
-            "title": "80180: Nature of Language",
-            "start": "2016-01-11T12:30:00"
-        },
-        {
-            "instructors": [
-                "Werner"
-            ],
-            "friends": [
-                "Rishub"
-            ],
-            "duration": "0:50:00",
-            "course": "80180",
-            "end": "2016-01-13T13:20:00",
-            "section": "1",
-            "location": "BH- 136A",
-            "title": "80180: Nature of Language",
-            "start": "2016-01-13T12:30:00"
-        },
-        {
-            "instructors": [
-                "Werner"
-            ],
-            "friends": [],
-            "duration": "0:50:00",
-            "course": "80180",
-            "end": "2016-01-15T14:20:00",
-            "section": "E",
-            "location": "WEH- 5302",
-            "title": "80180: Nature of Language",
-            "start": "2016-01-15T13:30:00"
-        },
-        {
-            "instructors": [
-                "Helgeson"
-            ],
-            "friends": [],
-            "duration": "1:20:00",
-            "course": "85241",
-            "end": "2016-01-12T14:50:00",
-            "section": "B",
-            "location": "BH- A51",
-            "title": "85241: Social Psychology",
-            "start": "2016-01-12T13:30:00"
-        },
-        {
-            "instructors": [
-                "Helgeson"
-            ],
-            "friends": [],
-            "duration": "1:20:00",
-            "course": "85241",
-            "end": "2016-01-14T14:50:00",
-            "section": "B",
-            "location": "BH- A51",
-            "title": "85241: Social Psychology",
-            "start": "2016-01-14T13:30:00"
-        }
-    ],
-    "courses": {
-        "73100": {
-            "desc": "Literally, an introduction to economic principles, the goal of this course is to give students an understanding as to what constitutes good \"economic thinking\". This thought process is grounded in the construction and use of economics models. Drawing on issues in both microeconomics and macroeconomics, fundamental principles are shown to transcend particular examples and allow the field to be seen as a coherent, unified whole. (Lecture, 2 hours; Recitation, 1 hour). Course Website: http://tepper.cmu.edu/prospective-students/course-page/73100/principles-of-economics",
-            "prereqs": "",
-            "lectures": [
-                {
-                    "instructors": [
-                        "Kushnir",
-                        "Sleet"
-                    ],
-                    "lecture": "Lec 1",
-                    "sections": [],
-                    "meetings": [
-                        {
-                            "end": "12:20PM",
-                            "room": "DH 2315",
-                            "location": "Pittsburgh, Pennsylvania",
-                            "days": "MW",
-                            "begin": "11:30AM"
-                        }
-                    ]
-                },
-                {
-                    "instructors": [
-                        "Sleet",
-                        "Kushnir"
-                    ],
-                    "lecture": "Lec 2",
-                    "sections": [
-                        {
-                            "instructors": [
-                                "Instructor TBA"
-                            ],
-                            "section": "A",
-                            "meetings": [
-                                {
-                                    "end": "12:20PM",
-                                    "room": "PH 100",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "11:30AM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Instructor TBA"
-                            ],
-                            "section": "B",
-                            "meetings": [
-                                {
-                                    "end": "12:20PM",
-                                    "room": "PH 226C",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "11:30AM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Instructor TBA"
-                            ],
-                            "section": "C",
-                            "meetings": [
-                                {
-                                    "end": "12:20PM",
-                                    "room": "HH B103",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "11:30AM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Instructor TBA"
-                            ],
-                            "section": "D",
-                            "meetings": [
-                                {
-                                    "end": "12:20PM",
-                                    "room": "GHC 5222",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "11:30AM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Instructor TBA"
-                            ],
-                            "section": "E",
-                            "meetings": [
-                                {
-                                    "end": "12:20PM",
-                                    "room": "PH A18C",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "11:30AM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Instructor TBA"
-                            ],
-                            "section": "F",
-                            "meetings": [
-                                {
-                                    "end": "12:20PM",
-                                    "room": "PH A19",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "11:30AM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Instructor TBA"
-                            ],
-                            "section": "H",
-                            "meetings": [
-                                {
-                                    "end": "01:20PM",
-                                    "room": "CFA 102",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "12:30PM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Instructor TBA"
-                            ],
-                            "section": "I",
-                            "meetings": [
-                                {
-                                    "end": "01:20PM",
-                                    "room": "HH B103",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "12:30PM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Instructor TBA"
-                            ],
-                            "section": "J",
-                            "meetings": [
-                                {
-                                    "end": "01:20PM",
-                                    "room": "PH A19",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "12:30PM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Instructor TBA"
-                            ],
-                            "section": "K",
-                            "meetings": [
-                                {
-                                    "end": "01:20PM",
-                                    "room": "DH 1112",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "12:30PM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Instructor TBA"
-                            ],
-                            "section": "L",
-                            "meetings": [
-                                {
-                                    "end": "01:20PM",
-                                    "room": "PH 125C",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "12:30PM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Instructor TBA"
-                            ],
-                            "section": "M",
-                            "meetings": [
-                                {
-                                    "end": "01:20PM",
-                                    "room": "WEH 5415",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "12:30PM"
-                                }
-                            ]
-                        }
-                    ],
-                    "meetings": [
-                        {
-                            "end": "01:20PM",
-                            "room": "DH 2315",
-                            "location": "Pittsburgh, Pennsylvania",
-                            "days": "MW",
-                            "begin": "12:30PM"
-                        }
-                    ]
-                }
-            ],
-            "semester": [
-                "F",
-                "S"
-            ],
-            "department": "Economics",
-            "coreqs": "",
-            "units": 9.0,
-            "name": "Principles of Economics"
-        },
-        "15214": {
-            "desc": "Software engineers today are less likely to design data structures and algorithms from scratch and more likely to build systems from library and framework components. In this course, students engage with concepts related to the construction of software systems at scale, building on their understanding of the basic building blocks of data structures, algorithms, program structures, and computer structures. The course covers technical topics in four areas: (1) concepts of design for complex systems, (2) object oriented programming, (3) static and dynamic analysis for programs, and (4) concurrent and distributed software. Student assignments involve engagement with complex software such as distributed massively multi-player game systems and frameworks for graphical user interaction.",
-            "prereqs": "(15-121 or 15-122) and (15-151 or 21-127)",
-            "lectures": [
-                {
-                    "instructors": [
-                        "Garrod",
-                        "Bloch"
-                    ],
-                    "lecture": "Lec",
-                    "sections": [
-                        {
-                            "instructors": [
-                                "Garrod"
-                            ],
-                            "section": "A",
-                            "meetings": [
-                                {
-                                    "end": "10:20AM",
-                                    "room": "WEH 5310",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "W",
-                                    "begin": "09:30AM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Garrod"
-                            ],
-                            "section": "B",
-                            "meetings": [
-                                {
-                                    "end": "11:20AM",
-                                    "room": "GHC 4101",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "W",
-                                    "begin": "10:30AM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Garrod"
-                            ],
-                            "section": "C",
-                            "meetings": [
-                                {
-                                    "end": "12:20PM",
-                                    "room": "WEH 5310",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "W",
-                                    "begin": "11:30AM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Garrod"
-                            ],
-                            "section": "D",
-                            "meetings": [
-                                {
-                                    "end": "01:20PM",
-                                    "room": "WEH 5310",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "W",
-                                    "begin": "12:30PM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Garrod"
-                            ],
-                            "section": "E",
-                            "meetings": [
-                                {
-                                    "end": "02:20PM",
-                                    "room": "WEH 5310",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "W",
-                                    "begin": "01:30PM"
-                                }
-                            ]
-                        }
-                    ],
-                    "meetings": [
-                        {
-                            "end": "04:20PM",
-                            "room": "WEH 7500",
-                            "location": "Pittsburgh, Pennsylvania",
-                            "days": "TR",
-                            "begin": "03:00PM"
-                        }
-                    ]
-                }
-            ],
-            "semester": [
-                "F",
-                "S"
-            ],
-            "department": "Computer Science",
-            "coreqs": "",
-            "units": 12.0,
-            "name": "Principles of Software Construction: Objects, Design, and Concurrency"
-        },
-        "15251": {
-            "desc": "This course is about how to use theoretical ideas to formulate and solve problems in computer science. It integrates mathematical material with general problem solving techniques and computer science applications. Examples are drawn from algorithms, complexity theory, game theory, probability theory, graph theory, automata theory, algebra, cryptography, and combinatorics. Assignments involve both mathematical proofs and programming. NOTE: students must achieve a C or better in order to use this course to satisfy the pre-requisite for any subsequent Computer Science course. Course Website: http://www.cs.cmu.edu/~15251",
-            "prereqs": "15-112 and (15-151 or 21-127)",
-            "lectures": [
-                {
-                    "instructors": [
-                        "O'Donnell",
-                        "Haeupler"
-                    ],
-                    "lecture": "Lec",
-                    "sections": [
-                        {
-                            "instructors": [
-                                "Instructor TBA"
-                            ],
-                            "section": "A",
-                            "meetings": [
-                                {
-                                    "end": "10:20AM",
-                                    "room": "DH 1209",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "09:30AM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Instructor TBA"
-                            ],
-                            "section": "B",
-                            "meetings": [
-                                {
-                                    "end": "11:20AM",
-                                    "room": "GHC 4211",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "10:30AM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Instructor TBA"
-                            ],
-                            "section": "C",
-                            "meetings": [
-                                {
-                                    "end": "12:20PM",
-                                    "room": "DH 1217",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "11:30AM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Instructor TBA"
-                            ],
-                            "section": "D",
-                            "meetings": [
-                                {
-                                    "end": "01:20PM",
-                                    "room": "GHC 4102",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "12:30PM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Instructor TBA"
-                            ],
-                            "section": "E",
-                            "meetings": [
-                                {
-                                    "end": "02:20PM",
-                                    "room": "DH 1217",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "01:30PM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Instructor TBA"
-                            ],
-                            "section": "F",
-                            "meetings": [
-                                {
-                                    "end": "03:20PM",
-                                    "room": "GHC 5222",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "02:30PM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Instructor TBA"
-                            ],
-                            "section": "G",
-                            "meetings": [
-                                {
-                                    "end": "04:20PM",
-                                    "room": "DH 1217",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "03:30PM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Kapoutsis"
-                            ],
-                            "section": "W",
-                            "meetings": [
-                                {
-                                    "end": "11:50AM",
-                                    "room": "CMB 2147",
-                                    "location": "Doha, Qatar",
-                                    "days": "MW",
-                                    "begin": "10:30AM"
-                                },
-                                {
-                                    "end": "11:20AM",
-                                    "room": "CMB 2147",
-                                    "location": "Doha, Qatar",
-                                    "days": "UTR",
-                                    "begin": "10:30AM"
-                                }
-                            ]
-                        }
-                    ],
-                    "meetings": [
-                        {
-                            "end": "10:20AM",
-                            "room": "GHC 4401",
-                            "location": "Pittsburgh, Pennsylvania",
-                            "days": "TR",
-                            "begin": "09:00AM"
-                        },
-                        {
-                            "end": "07:50PM",
-                            "room": "DH 2210",
-                            "location": "Pittsburgh, Pennsylvania",
-                            "days": "W",
-                            "begin": "06:30PM"
-                        }
-                    ]
-                }
-            ],
-            "semester": [
-                "F",
-                "S"
-            ],
-            "department": "Computer Science",
-            "coreqs": "",
-            "units": 12.0,
-            "name": "Great Theoretical Ideas in Computer Science"
-        },
-        "80180": {
-            "desc": "Language is used to talk about the world or to describe it, but how do we go about describing language itself? Linguistics is the name given to the science of language, whose task it is to give such a description. The discipline of linguistics has developed novel tools for describing and analyzing language over the last two hundred years and in this course we learn what these tools are and practice applying them. Sub-areas of linguistics which we study include phonetics (the study of speech sounds), phonology (the study of sound systems), morphology (the study of parts of words), and syntax (the study of combinations of words). Beyond this, we look at changes in language over time, and we consider the puzzle of linguistic meaning. The methods of linguistics are useful in the study of particular languages and in the study of language generally, so this course is useful for students of foreign languages as well as those interested in going on to study language acquisition, psycholinguistics, sociolinguistics, philosophy of language, and computer modeling of language.",
-            "prereqs": "",
-            "lectures": [
-                {
-                    "instructors": [
-                        "Werner"
-                    ],
-                    "lecture": "Lec",
-                    "sections": [
-                        {
-                            "instructors": [
-                                "Werner"
-                            ],
-                            "section": "A",
-                            "meetings": [
-                                {
-                                    "end": "12:20PM",
-                                    "room": "GHC 4215",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "11:30AM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Werner"
-                            ],
-                            "section": "B",
-                            "meetings": [
-                                {
-                                    "end": "01:20PM",
-                                    "room": "PH 126A",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "12:30PM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Werner"
-                            ],
-                            "section": "C",
-                            "meetings": [
-                                {
-                                    "end": "12:20PM",
-                                    "room": "WEH 5328",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "11:30AM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Werner"
-                            ],
-                            "section": "D",
-                            "meetings": [
-                                {
-                                    "end": "01:20PM",
-                                    "room": "WEH 5328",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "12:30PM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Werner"
-                            ],
-                            "section": "E",
-                            "meetings": [
-                                {
-                                    "end": "02:20PM",
-                                    "room": "WEH 5302",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "01:30PM"
-                                }
-                            ]
-                        },
-                        {
-                            "instructors": [
-                                "Werner"
-                            ],
-                            "section": "F",
-                            "meetings": [
-                                {
-                                    "end": "03:20PM",
-                                    "room": "WEH 5310",
-                                    "location": "Pittsburgh, Pennsylvania",
-                                    "days": "F",
-                                    "begin": "02:30PM"
-                                }
-                            ]
-                        }
-                    ],
-                    "meetings": [
-                        {
-                            "end": "01:20PM",
-                            "room": "BH 136A",
-                            "location": "Pittsburgh, Pennsylvania",
-                            "days": "MW",
-                            "begin": "12:30PM"
-                        }
-                    ]
-                }
-            ],
-            "semester": [
-                "F",
-                "S"
-            ],
-            "department": "Philosophy",
-            "coreqs": "",
-            "units": 9.0,
-            "name": "Nature of Language"
-        },
-        "85241": {
-            "desc": "The focus of this course will be on how peoples behavior, feelings and thoughts are influenced or determined by their social environment. The course will begin with lectures and readings on how social psychologists go about studying social behavior. Next, various topics on which social psychologists have done research will be covered. These topics will include: person perception, prejudice and discrimination, the nature of attitudes and how attitudes are formed and changed, interpersonal attraction, conformity, compliance, altruism, aggression, group behavior, and applications of psychology to problems in health care, law, politics, and the environment. Through readings and lectures on these topics, students will also be exposed to social psychological theories.",
-            "prereqs": "",
-            "lectures": [
-                {
-                    "instructors": [
-                        "Boyd"
-                    ],
-                    "lecture": "A",
-                    "sections": [],
-                    "meetings": [
-                        {
-                            "end": "01:20PM",
-                            "room": "PH 100",
-                            "location": "Pittsburgh, Pennsylvania",
-                            "days": "TR",
-                            "begin": "12:00PM"
-                        }
-                    ]
-                },
-                {
-                    "instructors": [
-                        "Helgeson"
-                    ],
-                    "lecture": "B",
-                    "sections": [],
-                    "meetings": [
-                        {
-                            "end": "02:50PM",
-                            "room": "BH A51",
-                            "location": "Pittsburgh, Pennsylvania",
-                            "days": "TR",
-                            "begin": "01:30PM"
-                        }
-                    ]
-                }
-            ],
-            "semester": [
-                "F",
-                "S"
-            ],
-            "department": "Psychology",
-            "coreqs": "",
-            "units": 9.0,
-            "name": "Social Psychology"
-        }
+[
+    {
+        "section": "1",
+        "title": "15150: Principles of Functional Programming",
+        "location": "DH- 2315",
+        "end": "2016-01-12T13:20:00",
+        "course": "15150",
+        "duration": "1:20:00",
+        "start": "2016-01-12T12:00:00",
+        "friends": [
+            "rishubj"
+        ],
+        "instructors": [
+            "Erdmann"
+        ]
+    },
+    {
+        "section": "1",
+        "title": "15150: Principles of Functional Programming",
+        "location": "DH- 2315",
+        "end": "2016-01-14T13:20:00",
+        "course": "15150",
+        "duration": "1:20:00",
+        "start": "2016-01-14T12:00:00",
+        "friends": [
+            "rishubj"
+        ],
+        "instructors": [
+            "Erdmann"
+        ]
+    },
+    {
+        "section": "C",
+        "title": "15150: Principles of Functional Programming",
+        "location": "GHC- 5210",
+        "end": "2016-01-13T11:50:00",
+        "course": "15150",
+        "duration": "1:20:00",
+        "start": "2016-01-13T10:30:00",
+        "friends": [],
+        "instructors": [
+            "TBA"
+        ]
+    },
+    {
+        "section": "1",
+        "title": "15251: Great Theoretical Ideas in Computer Science",
+        "location": "GHC- 4401",
+        "end": "2016-01-12T10:20:00",
+        "course": "15251",
+        "duration": "1:20:00",
+        "start": "2016-01-12T09:00:00",
+        "friends": [
+            "rishubj"
+        ],
+        "instructors": [
+            "Haeupler",
+            "O'Donnell"
+        ]
+    },
+    {
+        "section": "1",
+        "title": "15251: Great Theoretical Ideas in Computer Science",
+        "location": "GHC- 4401",
+        "end": "2016-01-14T10:20:00",
+        "course": "15251",
+        "duration": "1:20:00",
+        "start": "2016-01-14T09:00:00",
+        "friends": [
+            "rishubj"
+        ],
+        "instructors": [
+            "Haeupler",
+            "O'Donnell"
+        ]
+    },
+    {
+        "section": "1",
+        "title": "15251: Great Theoretical Ideas in Computer Science",
+        "location": "DH- 2210",
+        "end": "2016-01-13T19:50:00",
+        "course": "15251",
+        "duration": "1:20:00",
+        "start": "2016-01-13T18:30:00",
+        "friends": [
+            "rishubj"
+        ],
+        "instructors": [
+            "Haeupler",
+            "O'Donnell"
+        ]
+    },
+    {
+        "section": "F",
+        "title": "15251: Great Theoretical Ideas in Computer Science",
+        "location": "GHC- 5222",
+        "end": "2016-01-15T15:20:00",
+        "course": "15251",
+        "duration": "0:50:00",
+        "start": "2016-01-15T14:30:00",
+        "friends": [],
+        "instructors": [
+            "TBA"
+        ]
+    },
+    {
+        "section": "1",
+        "title": "21261: Introduction to Ordinary Differential Equations",
+        "location": "WEH- 5403",
+        "end": "2016-01-11T13:20:00",
+        "course": "21261",
+        "duration": "0:50:00",
+        "start": "2016-01-11T12:30:00",
+        "friends": [],
+        "instructors": [
+            "Schaeffer"
+        ]
+    },
+    {
+        "section": "1",
+        "title": "21261: Introduction to Ordinary Differential Equations",
+        "location": "WEH- 5403",
+        "end": "2016-01-13T13:20:00",
+        "course": "21261",
+        "duration": "0:50:00",
+        "start": "2016-01-13T12:30:00",
+        "friends": [],
+        "instructors": [
+            "Schaeffer"
+        ]
+    },
+    {
+        "section": "1",
+        "title": "21261: Introduction to Ordinary Differential Equations",
+        "location": "WEH- 5403",
+        "end": "2016-01-15T13:20:00",
+        "course": "21261",
+        "duration": "0:50:00",
+        "start": "2016-01-15T12:30:00",
+        "friends": [],
+        "instructors": [
+            "Schaeffer"
+        ]
+    },
+    {
+        "section": "B",
+        "title": "21261: Introduction to Ordinary Differential Equations",
+        "location": "WEH- 8427",
+        "end": "2016-01-14T15:20:00",
+        "course": "21261",
+        "duration": "0:50:00",
+        "start": "2016-01-14T14:30:00",
+        "friends": [],
+        "instructors": [
+            "Pu"
+        ]
+    },
+    {
+        "section": "1",
+        "title": "21268: Multidimensional Calculus",
+        "location": "HH- B103",
+        "end": "2016-01-11T14:20:00",
+        "course": "21268",
+        "duration": "0:50:00",
+        "start": "2016-01-11T13:30:00",
+        "friends": [],
+        "instructors": [
+            "Schaeffer"
+        ]
+    },
+    {
+        "section": "1",
+        "title": "21268: Multidimensional Calculus",
+        "location": "HH- B103",
+        "end": "2016-01-13T14:20:00",
+        "course": "21268",
+        "duration": "0:50:00",
+        "start": "2016-01-13T13:30:00",
+        "friends": [],
+        "instructors": [
+            "Schaeffer"
+        ]
+    },
+    {
+        "section": "1",
+        "title": "21268: Multidimensional Calculus",
+        "location": "HH- B103",
+        "end": "2016-01-15T14:20:00",
+        "course": "21268",
+        "duration": "0:50:00",
+        "start": "2016-01-15T13:30:00",
+        "friends": [],
+        "instructors": [
+            "Schaeffer"
+        ]
+    },
+    {
+        "section": "B",
+        "title": "21268: Multidimensional Calculus",
+        "location": "WEH- 6423",
+        "end": "2016-01-12T16:20:00",
+        "course": "21268",
+        "duration": "0:50:00",
+        "start": "2016-01-12T15:30:00",
+        "friends": [],
+        "instructors": [
+            "Mazari Armida"
+        ]
+    },
+    {
+        "section": "A",
+        "title": "33120: Science and Science Fiction",
+        "location": "DH- 1112",
+        "end": "2016-01-11T10:20:00",
+        "course": "33120",
+        "duration": "0:50:00",
+        "start": "2016-01-11T09:30:00",
+        "friends": [],
+        "instructors": [
+            "Luokkala"
+        ]
+    },
+    {
+        "section": "A",
+        "title": "33120: Science and Science Fiction",
+        "location": "DH- 1112",
+        "end": "2016-01-13T10:20:00",
+        "course": "33120",
+        "duration": "0:50:00",
+        "start": "2016-01-13T09:30:00",
+        "friends": [],
+        "instructors": [
+            "Luokkala"
+        ]
+    },
+    {
+        "section": "A",
+        "title": "33120: Science and Science Fiction",
+        "location": "DH- 1112",
+        "end": "2016-01-15T10:20:00",
+        "course": "33120",
+        "duration": "0:50:00",
+        "start": "2016-01-15T09:30:00",
+        "friends": [],
+        "instructors": [
+            "Luokkala"
+        ]
+    },
+    {
+        "section": "A",
+        "title": "82252: Korean Cinema and Trans-Asian Confluences",
+        "location": "BH- 235A",
+        "end": "2016-01-12T20:50:00",
+        "course": "82252",
+        "duration": "2:20:00",
+        "start": "2016-01-12T18:30:00",
+        "friends": [],
+        "instructors": [
+            "Shin"
+        ]
+    },
+    {
+        "section": "A",
+        "title": "82252: Korean Cinema and Trans-Asian Confluences",
+        "location": "BH- 235A",
+        "end": "2016-01-14T19:50:00",
+        "course": "82252",
+        "duration": "1:20:00",
+        "start": "2016-01-14T18:30:00",
+        "friends": [],
+        "instructors": [
+            "Shin"
+        ]
     }
-}
+]

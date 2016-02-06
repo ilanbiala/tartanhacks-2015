@@ -474,7 +474,8 @@ footer .footer-below {
     max-height: 50% !important; 
     width: 25% !important;
     margin: auto;
-    overflow-y: hidden;
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
     border-radius: 2px;
     will-change: top, opacity;
 }

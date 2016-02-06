@@ -3,6 +3,8 @@ import base64, ics
 from courses import *
 import dateutil.parser
 from dining import *
+from json import *
+import sys
 
 # dictionary of all user's jsons
 users = {'Rishub': {
@@ -816,22 +818,20 @@ def sameclasses(users, my_data):
 
     # datetime.datetime(year, month, day[, hour[, minute[, second[, microsecond[, tzinfo]]]]])
     # begin = dateutil.parser.parse("2016-01-11T08:00:00-05:00")
-
-    for course in my_data["schedule"]:
-    	course["friends"] = []
-    	for name in users:
-    		for ucourse in users[name]["schedule"]:
-
-    			if (course["course"] == ucourse["course"] and course["section"] == ucourse["section"]  and
-    				course["start"] == ucourse["start"] and course["end"] == ucourse["end"] ):
-    				course["friends"].append(name)
-    				break
+    my_data = eval(my_data)
+    new_data=[]
+    for oldcourse in my_data:
+      course = oldcourse
+      course["friends"] = []
+      for name in users:
+        for ucourse in eval(users[name]):
+          if (course["course"] == ucourse["course"] and course["section"] == ucourse["section"]  and
+            course["start"] == ucourse["start"] and course["end"] == ucourse["end"] ):
+            course["friends"].append(name)
+            break
+      new_data.append(course)
 
     with open('static/my_data.json', 'w') as outfile:
       json.dump(my_data, outfile, indent=4)
 
-    return my_data
-
-print (sameclasses(users, my_data))
-
-# print (freetime(users, my_data))
+    return new_data

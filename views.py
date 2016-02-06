@@ -3,6 +3,7 @@ import psycopg2
 from server import *
 from courses import *
 from freetime import *
+from sameclasses import *
 import base64
 import sys
 import urllib.parse
@@ -47,7 +48,15 @@ def calendar():
 					users_dict[i[0]]=i[5]
 
 			free_time=freetime(users_dict, user[0][5])
-			print(user[0][5],file=sys.stderr)
+
+			same_classes=sameclasses(users_dict, user[0][5])
+
+			query="UPDATE andrewUsers SET classes=%s WHERE id=%s"
+			data=(str(same_classes),user_id)
+			sql.execute(query,data)
+			conn.commit()
+
+			#print(user[0][5],file=sys.stderr)
 
 			return render_template('calendar.html', freeSchedule = free_time, userInfo = user[0][5])
 		else:
