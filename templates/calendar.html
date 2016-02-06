@@ -24,35 +24,61 @@
   <div id="calendar" style="width: 80%;"></div>
 
   <script>
+    var colors = ['#D32F2F', '#C2185B', '#7B1FA2', '#512DA8',
+                  '#303F9F', '#1976D2', '#0288D1', '#0097A7',
+                  '#388E3C', '#F57C00', '#E64A19', '#689F38', '#AFB42B'
+                 ];
+
     $(document).ready(function() {
-      $('#calendar').fullCalendar({
-        defaultDate: '2016-01-10',
-        slotWidth: 80,
-        height: 720,
-        header: false,
-        allDaySlot: false,
-        theme: true,
-        defaultView: 'agendaWeek',
-        editable: false,
-        displayEventTime: true,
-        displayEventEnd: true,
-        minTime: '08:00:00',
-        maxTime: '22:00:00',
-        columnFormat: {
-          week: 'ddd' // Only show day of the week names
-        },
-        // businessHours: {
-        //   start: '8:30',
-        //   end: '22:00',
-        //   dow: [0, 1, 2, 3, 4, 5, 6]
-        // },
-        dayClick: function() {
-          console.log('a day has been clicked');
-        },
-        eventClick: function() {
-          console.log('an event has been clicked');
-        },
-        eventSources: ['../static/varun_schedule.json']
+      $.get({
+        url: '../static/varun_schedule.json',
+      }).done(function(schedule) {
+        var startIndex = 7;
+        var currentIndex = 0;
+        var classColors = {};
+
+        schedule.forEach(function(course) {
+          if (!classColors[course.course]) {
+            classColors[course.course] = colors[startIndex + currentIndex];
+            course.color = colors[startIndex + currentIndex];
+            currentIndex++;
+          } else {
+            course.color = classColors[course.course];
+          }
+        });
+
+        $('#calendar').fullCalendar({
+          defaultDate: '2016-01-10',
+          slotWidth: 80,
+          height: 720,
+          header: false,
+          allDaySlot: false,
+          theme: true,
+          defaultView: 'agendaWeek',
+          editable: false,
+          displayEventTime: true,
+          displayEventEnd: true,
+          minTime: '08:00:00',
+          maxTime: '22:00:00',
+          columnFormat: {
+            week: 'ddd' // Only show day of the week names
+          },
+          // businessHours: {
+          //   start: '8:30',
+          //   end: '22:00',
+          //   dow: [0, 1, 2, 3, 4, 5, 6]
+          // },
+          dayClick: function() {
+            // debugger;
+            console.log('a day has been clicked');
+          },
+          eventClick: function() {
+            console.log('an event has been clicked');
+          },
+          events: schedule
+        });
+      }).fail(function() {
+        alert('error occured');
       });
     });
     // angular
