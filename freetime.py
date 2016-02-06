@@ -63,6 +63,9 @@ def freetime(users, my_data):
 			begin += timedelta(minutes=30)
 			endtime += timedelta(minutes=30)
 
+	with open('static/freetimes.json', 'w') as outfile:
+		json.dump(all_time_free, outfile, indent=4)
+
 	return all_time_free
 
 print (freetime(users, my_data))
