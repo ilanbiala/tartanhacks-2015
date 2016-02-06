@@ -43,25 +43,25 @@
     <div id="calendar"></div>
     <div id="event-info">
       <div class="event">
-        <h1 id="time"></h1>
-        <h2 id="course-name"></h2>
-        <h3 class="instructors"></h3>
-        <h3 class="location"></h3>
-        <h3 class="section"></h3>
-        <h3>Friends in your class</h3>
+        <h5 id="time"></h5>
+        <h6 id="course-name"></h6>
+        <h6 class="instructors"></h6>
+        <h6 class="location"></h6>
+        <h6 class="section"></h6>
+        <h6>Friends in your class</h6>
         <ul class="friends collection">
           <!-- add friends here -->
         </ul>
       </div>
 
       <div class="free">
-        <h1 id="time"></h1>
-        <h2>Friends Available</h2>
+        <h5 id="time"></h5>
+        <h6>Friends Available</h6>
         <ul class="friends collection">
           <!-- add friends here -->
         </ul>
 
-        <h2>Restaurants Open</h2>
+        <h6>Restaurants Open</h6>
         <ul class="restaurants collection">
           <!-- add restaurants here -->
         </ul>
@@ -119,14 +119,14 @@
             $('#event-info .event').css('display', 'block');
             $('#event-info .free').css('display', 'none');
             $('#event-info .event #time').text('Time: ' + $.fullCalendar.formatRange(course.start, course.end, 'h:mm'));
-            $('#event-info .event #course-name').text(course.title);
-            var instructors = '';
+            $('#event-info .event #course-name').text('Course: ' + course.title);
+            var instructors = 'Instructors: ';
             course.instructors.forEach(function(instructor) {
               instructors += instructor + ', ';
             });
             $('#event-info .event .instructors').text(instructors.substring(0, instructors.length - 2));
-            $('#event-info .event .location').text(course.location);
-            $('#event-info .event .section').text(course.section);
+            $('#event-info .event .location').text('Room: ' + course.location);
+            $('#event-info .event .section').text('Section: ' + course.section);
 
             var friends = [];
             course.friends.forEach(function(friend) {

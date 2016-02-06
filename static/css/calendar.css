@@ -107,7 +107,7 @@ Colors: Use the following - https://www.google.com/design/spec/style/color.html#
 #event-info {
   flex: 1;
   display: none;
-  background: yellow;
+  padding: 20px;
 }
 
 #event-info .event {
