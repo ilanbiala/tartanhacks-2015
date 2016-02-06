@@ -31,7 +31,7 @@
         <h3 class="location"></h3>
         <h3 class="section"></h3>
         <h3>Friends in your class</h3>
-        <ul class="friends">
+        <ul class="friends collection">
           <!-- add friends here -->
         </ul>
       </div>
@@ -39,12 +39,12 @@
       <div class="free">
         <h1 id="time"></h1>
         <h2>Friends Available</h2>
-        <ul class="friends">
+        <ul class="friends collection">
           <!-- add friends here -->
         </ul>
 
         <h2>Restaurants Open</h2>
-        <ul class="restaurants">
+        <ul class="restaurants collection">
           <!-- add restaurants here -->
         </ul>
       </div>
@@ -123,13 +123,13 @@
 
             var friends = [];
             course.friends.forEach(function(friend) {
-              friends.push($('<li>' + friend + '</li>'));
+              friends.push($('<li class="collection-item">' + friend + '</li>'));
             });
             $('#event-info .free .friends').html(friends);
 
             var restaurants = [];
             course.restaurants.forEach(function(restaurant) {
-              restaurants.push($('<li>' + restaurant + '</li>'));
+              restaurants.push($('<li class="collection-item">' + restaurant + '</li>'));
             });
             $('#event-info .free .restaurants').html(restaurants);
           }
