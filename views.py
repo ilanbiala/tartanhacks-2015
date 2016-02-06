@@ -17,9 +17,9 @@ conn = psycopg2.connect(
     host=url.hostname,
     port=url.port
 )
-sql = conn.cursor()
-sql.execute("CREATE TABLE andrewUsers(id VARCHAR(20) PRIMARY KEY, password VARCHAR(20), classes VARCHAR(10000))")
-conn.commit()
+# sql = conn.cursor()
+# sql.execute("CREATE TABLE andrewUsers(id VARCHAR(20) PRIMARY KEY, password VARCHAR(20), classes VARCHAR(10000))")
+# conn.commit()
 
 @app.route('/calendar', methods=['get','post'])
 def index():
