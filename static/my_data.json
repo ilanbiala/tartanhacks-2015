@@ -1,278 +1,303 @@
 [
     {
-        "section": "1",
-        "end": "2016-01-12T13:20:00",
-        "instructors": [
-            "Erdmann"
-        ],
-        "location": "DH- 2315",
-        "title": "15150: Principles of Functional Programming",
-        "start": "2016-01-12T12:00:00",
-        "course": "15150",
-        "friends": [
-            "rishubj"
-        ],
-        "duration": "1:20:00"
-    },
-    {
-        "section": "1",
-        "end": "2016-01-14T13:20:00",
-        "instructors": [
-            "Erdmann"
-        ],
-        "location": "DH- 2315",
-        "title": "15150: Principles of Functional Programming",
-        "start": "2016-01-14T12:00:00",
-        "course": "15150",
-        "friends": [
-            "rishubj"
-        ],
-        "duration": "1:20:00"
-    },
-    {
-        "section": "C",
-        "end": "2016-01-13T11:50:00",
-        "instructors": [
-            "TBA"
-        ],
-        "location": "GHC- 5210",
-        "title": "15150: Principles of Functional Programming",
-        "start": "2016-01-13T10:30:00",
-        "course": "15150",
-        "friends": [],
-        "duration": "1:20:00"
-    },
-    {
-        "section": "1",
+        "course": "15122",
         "end": "2016-01-12T10:20:00",
-        "instructors": [
-            "Haeupler",
-            "O'Donnell"
-        ],
-        "location": "GHC- 4401",
-        "title": "15251: Great Theoretical Ideas in Computer Science",
-        "start": "2016-01-12T09:00:00",
-        "course": "15251",
-        "friends": [
-            "varunsha",
-            "rishubj"
-        ],
-        "duration": "1:20:00"
-    },
-    {
-        "section": "1",
-        "end": "2016-01-14T10:20:00",
-        "instructors": [
-            "Haeupler",
-            "O'Donnell"
-        ],
-        "location": "GHC- 4401",
-        "title": "15251: Great Theoretical Ideas in Computer Science",
-        "start": "2016-01-14T09:00:00",
-        "course": "15251",
-        "friends": [
-            "varunsha",
-            "rishubj"
-        ],
-        "duration": "1:20:00"
-    },
-    {
-        "section": "1",
-        "end": "2016-01-13T19:50:00",
-        "instructors": [
-            "Haeupler",
-            "O'Donnell"
-        ],
+        "title": "15122: Principles of Imperative Computation",
         "location": "DH- 2210",
-        "title": "15251: Great Theoretical Ideas in Computer Science",
-        "start": "2016-01-13T18:30:00",
-        "course": "15251",
-        "friends": [
-            "varunsha",
-            "rishubj"
+        "instructors": [
+            "Simmons",
+            "Wright"
         ],
+        "section": "1",
+        "start": "2016-01-12T09:00:00",
+        "friends": [],
         "duration": "1:20:00"
     },
     {
-        "section": "F",
+        "course": "15122",
+        "end": "2016-01-14T10:20:00",
+        "title": "15122: Principles of Imperative Computation",
+        "location": "DH- 2210",
+        "instructors": [
+            "Simmons",
+            "Wright"
+        ],
+        "section": "1",
+        "start": "2016-01-14T09:00:00",
+        "friends": [],
+        "duration": "1:20:00"
+    },
+    {
+        "course": "15122",
         "end": "2016-01-15T15:20:00",
+        "title": "15122: Principles of Imperative Computation",
+        "location": "DH- 2105",
         "instructors": [
-            "TBA"
+            "Simmons"
         ],
-        "location": "GHC- 5222",
-        "title": "15251: Great Theoretical Ideas in Computer Science",
+        "section": "F",
         "start": "2016-01-15T14:30:00",
-        "course": "15251",
         "friends": [],
         "duration": "0:50:00"
     },
     {
-        "section": "1",
-        "end": "2016-01-11T13:20:00",
+        "course": "15122",
+        "end": "2016-01-11T15:20:00",
+        "title": "15122: Principles of Imperative Computation",
+        "location": "GHC- 5208",
         "instructors": [
-            "Schaeffer"
+            "Simmons"
         ],
-        "location": "WEH- 5403",
-        "title": "21261: Introduction to Ordinary Differential Equations",
-        "start": "2016-01-11T12:30:00",
-        "course": "21261",
+        "section": "F",
+        "start": "2016-01-11T14:30:00",
         "friends": [],
         "duration": "0:50:00"
     },
     {
-        "section": "1",
-        "end": "2016-01-13T13:20:00",
+        "course": "21127",
+        "end": "2016-01-11T16:20:00",
+        "title": "21127: Concepts of Mathematics",
+        "location": "PH- 100",
         "instructors": [
-            "Schaeffer"
+            "Johnson"
         ],
-        "location": "WEH- 5403",
-        "title": "21261: Introduction to Ordinary Differential Equations",
-        "start": "2016-01-13T12:30:00",
-        "course": "21261",
+        "section": "2",
+        "start": "2016-01-11T15:30:00",
         "friends": [],
         "duration": "0:50:00"
     },
     {
-        "section": "1",
-        "end": "2016-01-15T13:20:00",
+        "course": "21127",
+        "end": "2016-01-13T16:20:00",
+        "title": "21127: Concepts of Mathematics",
+        "location": "PH- 100",
         "instructors": [
-            "Schaeffer"
+            "Johnson"
         ],
-        "location": "WEH- 5403",
-        "title": "21261: Introduction to Ordinary Differential Equations",
-        "start": "2016-01-15T12:30:00",
-        "course": "21261",
+        "section": "2",
+        "start": "2016-01-13T15:30:00",
         "friends": [],
         "duration": "0:50:00"
     },
     {
-        "section": "B",
-        "end": "2016-01-14T15:20:00",
+        "course": "21127",
+        "end": "2016-01-15T16:20:00",
+        "title": "21127: Concepts of Mathematics",
+        "location": "PH- 100",
         "instructors": [
-            "Pu"
+            "Johnson"
         ],
-        "location": "WEH- 8427",
-        "title": "21261: Introduction to Ordinary Differential Equations",
-        "start": "2016-01-14T14:30:00",
-        "course": "21261",
+        "section": "2",
+        "start": "2016-01-15T15:30:00",
         "friends": [],
         "duration": "0:50:00"
     },
     {
-        "section": "1",
+        "course": "21127",
+        "end": "2016-01-12T11:20:00",
+        "title": "21127: Concepts of Mathematics",
+        "location": "WEH- 8201",
+        "instructors": [
+            "Zhou"
+        ],
+        "section": "F",
+        "start": "2016-01-12T10:30:00",
+        "friends": [],
+        "duration": "0:50:00"
+    },
+    {
+        "course": "21127",
+        "end": "2016-01-14T11:20:00",
+        "title": "21127: Concepts of Mathematics",
+        "location": "WEH- 8201",
+        "instructors": [
+            "Zhou"
+        ],
+        "section": "F",
+        "start": "2016-01-14T10:30:00",
+        "friends": [],
+        "duration": "0:50:00"
+    },
+    {
+        "course": "21241",
+        "end": "2016-01-11T12:20:00",
+        "title": "21241: Matrices and Linear Transformations",
+        "location": "BH- 136A",
+        "instructors": [
+            "Handron"
+        ],
+        "section": "2",
+        "start": "2016-01-11T11:30:00",
+        "friends": [],
+        "duration": "0:50:00"
+    },
+    {
+        "course": "21241",
+        "end": "2016-01-13T12:20:00",
+        "title": "21241: Matrices and Linear Transformations",
+        "location": "BH- 136A",
+        "instructors": [
+            "Handron"
+        ],
+        "section": "2",
+        "start": "2016-01-13T11:30:00",
+        "friends": [],
+        "duration": "0:50:00"
+    },
+    {
+        "course": "21241",
+        "end": "2016-01-15T12:20:00",
+        "title": "21241: Matrices and Linear Transformations",
+        "location": "BH- 136A",
+        "instructors": [
+            "Handron"
+        ],
+        "section": "2",
+        "start": "2016-01-15T11:30:00",
+        "friends": [],
+        "duration": "0:50:00"
+    },
+    {
+        "course": "21241",
+        "end": "2016-01-12T17:20:00",
+        "title": "21241: Matrices and Linear Transformations",
+        "location": "GHC- 4211",
+        "instructors": [
+            "Dhavalikar"
+        ],
+        "section": "F",
+        "start": "2016-01-12T16:30:00",
+        "friends": [],
+        "duration": "0:50:00"
+    },
+    {
+        "course": "27100",
         "end": "2016-01-11T14:20:00",
+        "title": "27100: Engineering the Materials of the Future",
+        "location": "BH- 136A",
         "instructors": [
-            "Schaeffer"
+            "Bockstaller"
         ],
-        "location": "HH- B103",
-        "title": "21268: Multidimensional Calculus",
+        "section": "1",
         "start": "2016-01-11T13:30:00",
-        "course": "21268",
         "friends": [],
         "duration": "0:50:00"
     },
     {
-        "section": "1",
+        "course": "27100",
         "end": "2016-01-13T14:20:00",
+        "title": "27100: Engineering the Materials of the Future",
+        "location": "BH- 136A",
         "instructors": [
-            "Schaeffer"
+            "Bockstaller"
         ],
-        "location": "HH- B103",
-        "title": "21268: Multidimensional Calculus",
-        "start": "2016-01-13T13:30:00",
-        "course": "21268",
-        "friends": [],
-        "duration": "0:50:00"
-    },
-    {
         "section": "1",
+        "start": "2016-01-13T13:30:00",
+        "friends": [],
+        "duration": "0:50:00"
+    },
+    {
+        "course": "27100",
         "end": "2016-01-15T14:20:00",
+        "title": "27100: Engineering the Materials of the Future",
+        "location": "BH- 136A",
         "instructors": [
-            "Schaeffer"
+            "Bockstaller"
         ],
-        "location": "HH- B103",
-        "title": "21268: Multidimensional Calculus",
+        "section": "1",
         "start": "2016-01-15T13:30:00",
-        "course": "21268",
         "friends": [],
         "duration": "0:50:00"
     },
     {
-        "section": "B",
+        "course": "27100",
+        "end": "2016-01-14T15:20:00",
+        "title": "27100: Engineering the Materials of the Future",
+        "location": "SH- 219",
+        "instructors": [
+            "Heard"
+        ],
+        "section": "A",
+        "start": "2016-01-14T14:30:00",
+        "friends": [],
+        "duration": "0:50:00"
+    },
+    {
+        "course": "27100",
         "end": "2016-01-12T16:20:00",
+        "title": "27100: Engineering the Materials of the Future",
+        "location": "DH- A303",
         "instructors": [
-            "Mazari Armida"
+            "Heard"
         ],
-        "location": "WEH- 6423",
-        "title": "21268: Multidimensional Calculus",
-        "start": "2016-01-12T15:30:00",
-        "course": "21268",
+        "section": "A",
+        "start": "2016-01-12T13:30:00",
         "friends": [],
-        "duration": "0:50:00"
+        "duration": "2:50:00"
     },
     {
-        "section": "A",
+        "course": "33142",
         "end": "2016-01-11T10:20:00",
+        "title": "33142: Physics II for Engineering and Physics Students",
+        "location": "DH- 2210",
         "instructors": [
-            "Luokkala"
+            "Klein"
         ],
-        "location": "DH- 1112",
-        "title": "33120: Science and Science Fiction",
+        "section": "1",
         "start": "2016-01-11T09:30:00",
-        "course": "33120",
         "friends": [],
         "duration": "0:50:00"
     },
     {
-        "section": "A",
+        "course": "33142",
         "end": "2016-01-13T10:20:00",
+        "title": "33142: Physics II for Engineering and Physics Students",
+        "location": "DH- 2210",
         "instructors": [
-            "Luokkala"
+            "Klein"
         ],
-        "location": "DH- 1112",
-        "title": "33120: Science and Science Fiction",
+        "section": "1",
         "start": "2016-01-13T09:30:00",
-        "course": "33120",
         "friends": [],
         "duration": "0:50:00"
     },
     {
-        "section": "A",
+        "course": "33142",
         "end": "2016-01-15T10:20:00",
+        "title": "33142: Physics II for Engineering and Physics Students",
+        "location": "DH- 2210",
         "instructors": [
-            "Luokkala"
+            "Klein"
         ],
-        "location": "DH- 1112",
-        "title": "33120: Science and Science Fiction",
+        "section": "1",
         "start": "2016-01-15T09:30:00",
-        "course": "33120",
         "friends": [],
         "duration": "0:50:00"
     },
     {
-        "section": "A",
-        "end": "2016-01-12T20:50:00",
+        "course": "33142",
+        "end": "2016-01-12T12:20:00",
+        "title": "33142: Physics II for Engineering and Physics Students",
+        "location": "PH- 126A",
         "instructors": [
-            "Shin"
+            "Bhowmick"
         ],
-        "location": "BH- 235A",
-        "title": "82252: Korean Cinema and Trans-Asian Confluences",
-        "start": "2016-01-12T18:30:00",
-        "course": "82252",
+        "section": "D",
+        "start": "2016-01-12T11:30:00",
         "friends": [],
-        "duration": "2:20:00"
+        "duration": "0:50:00"
     },
     {
-        "section": "A",
-        "end": "2016-01-14T19:50:00",
+        "course": "33142",
+        "end": "2016-01-14T12:20:00",
+        "title": "33142: Physics II for Engineering and Physics Students",
+        "location": "PH- 126A",
         "instructors": [
-            "Shin"
+            "Bhowmick"
         ],
-        "location": "BH- 235A",
-        "title": "82252: Korean Cinema and Trans-Asian Confluences",
-        "start": "2016-01-14T18:30:00",
-        "course": "82252",
+        "section": "D",
+        "start": "2016-01-14T11:30:00",
         "friends": [],
-        "duration": "1:20:00"
+        "duration": "0:50:00"
     }
 ]
