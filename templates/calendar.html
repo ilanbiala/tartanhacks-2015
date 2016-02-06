@@ -3,7 +3,25 @@
 <!-- <html lang="en" ng-app="tartanhacks"> -->
 <head>
   <meta charset="UTF-8">
-  <title>Calendar view</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>CMU Meets</title>
+
+  <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+  <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="../static/css/home.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
   <style>
     body {
@@ -100,7 +118,7 @@
           if (course.title) {
             $('#event-info .event').css('display', 'block');
             $('#event-info .free').css('display', 'none');
-            $('#event-info .event #time').text('Time: ' + new Date(course.start));
+            $('#event-info .event #time').text('Time: ' + $.fullCalendar.formatRange(course.start, course.end, 'h:mm'));
             $('#event-info .event #course-name').text(course.title);
             var instructors = '';
             course.instructors.forEach(function(instructor) {
@@ -119,8 +137,7 @@
             $('#event-info .event').css('display', 'none');
             $('#event-info .free').css('display', 'block');
 
-            $('#event-info .free #time').text('Time: ' + new Date(course.start));
-
+            $('#event-info .free #time').text('Time: ' + $.fullCalendar.formatRange(course.start, course.end, 'h:mm'));
             var friends = [];
             course.friends.forEach(function(friend) {
               friends.push($('<li class="collection-item">' + friend + '</li>'));
