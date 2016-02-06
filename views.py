@@ -2,6 +2,7 @@ from flask import *
 import psycopg2
 from server import *
 from courses import *
+import freetime
 import base64
 import sys
 import urllib.parse
@@ -17,8 +18,8 @@ conn = psycopg2.connect(
     host=url.hostname,
     port=url.port
 )
-# sql = conn.cursor()
-# sql.execute("CREATE TABLE andrewUsers(id VARCHAR(20) PRIMARY KEY, password VARCHAR(20), classes VARCHAR(10000))")
+sql = conn.cursor()
+# sql.execute("CREATE TABLE andrewUsers(id VARCHAR(20) PRIMARY KEY, firstname VARCHAR(20), lastname VARCHAR(20), fullname VARCHAR(41), password VARCHAR(20), classes VARCHAR(100000))")
 # conn.commit()
 
 @app.route('/calendar', methods=['get','post'])
@@ -29,11 +30,26 @@ def calendar():
 		query = "SELECT * FROM andrewUsers where id = '%s'" % user_id
 		sql.execute(query)
 		user = sql.fetchall()
-		encrypted_pw = user[0][1]
-		decrypted_pw = (base64.b64decode(encrypted_pw).decode('utf8'))
-		if user_pw == decrypted_pw:
+		stored_pw = user[0][4]
+		encrypted_pw = base64.b64encode(bytes(user_pw, 'utf8')).decode('utf8')
+		
+		print(stored_pw,encrypted_pw, file=sys.stderr)
+		if stored_pw == encrypted_pw:
 			#print("Correct Password", file=sys.stderr)
-			return render_template('calendar.html')
+
+			query = "SELECT * FROM andrewUsers" 
+			sql.execute(query)
+			userlist = sql.fetchall()
+
+			users_dict = {}
+			for i in userlist:
+				if i[0]!=user_id:
+					users_dict[i[0]]=i[5]
+
+			free_time=['']
+			#free_time = freetime(users_dict, user[0][5])
+
+			return render_template('calendar.html', freeSchedule = free_time, userInfo = user[0][5])
 		else:
 			return render_template('index.html', password_match = 'false')
 
@@ -50,8 +66,8 @@ def index():
 			courses = get_courses(user_id, user_pw)
 			encrypted_pw = base64.b64encode(bytes(user_pw, 'utf8')).decode('utf8')
 			#print("Password Matching %s" %encrypted_pw, type(encrypted_pw), file=sys.stderr)
-			query = "INSERT INTO andrewUsers (id, password) VALUES (%s,%s)"
-			data  = (user_id, encrypted_pw)
+			query = "INSERT INTO andrewUsers (id,  firstname, lastname, fullname, password, classes) VALUES (%s,%s,%s,%s,%s,%s)"
+			data  = (user_id, first, last, full, encrypted_pw, courses)
 			sql.execute(query,data)
 			conn.commit()
 			return render_template('index.html', password_match = 'true')
