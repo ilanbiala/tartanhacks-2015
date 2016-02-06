@@ -1,275 +1,249 @@
 [
     {
-        "section": "1",
-        "title": "15150: Principles of Functional Programming",
-        "location": "DH- 2315",
-        "end": "2016-01-12T13:20:00",
-        "course": "15150",
         "duration": "1:20:00",
+        "end": "2016-01-12T13:20:00",
         "start": "2016-01-12T12:00:00",
         "friends": [
-            "rishubj"
+            "ildook"
         ],
+        "section": "1",
+        "course": "15150",
         "instructors": [
             "Erdmann"
-        ]
+        ],
+        "title": "15150: Principles of Functional Programming",
+        "location": "DH- 2315"
     },
     {
-        "section": "1",
-        "title": "15150: Principles of Functional Programming",
-        "location": "DH- 2315",
-        "end": "2016-01-14T13:20:00",
-        "course": "15150",
         "duration": "1:20:00",
+        "end": "2016-01-14T13:20:00",
         "start": "2016-01-14T12:00:00",
         "friends": [
-            "rishubj"
+            "ildook"
         ],
+        "section": "1",
+        "course": "15150",
         "instructors": [
             "Erdmann"
-        ]
+        ],
+        "title": "15150: Principles of Functional Programming",
+        "location": "DH- 2315"
     },
     {
-        "section": "C",
-        "title": "15150: Principles of Functional Programming",
-        "location": "GHC- 5210",
-        "end": "2016-01-13T11:50:00",
-        "course": "15150",
         "duration": "1:20:00",
+        "end": "2016-01-13T11:50:00",
         "start": "2016-01-13T10:30:00",
         "friends": [],
+        "section": "D",
+        "course": "15150",
         "instructors": [
             "TBA"
-        ]
+        ],
+        "title": "15150: Principles of Functional Programming",
+        "location": "GHC- 5208"
     },
     {
-        "section": "1",
-        "title": "15251: Great Theoretical Ideas in Computer Science",
-        "location": "GHC- 4401",
-        "end": "2016-01-12T10:20:00",
-        "course": "15251",
         "duration": "1:20:00",
+        "end": "2016-01-12T10:20:00",
         "start": "2016-01-12T09:00:00",
         "friends": [
-            "rishubj"
+            "ildook"
         ],
+        "section": "1",
+        "course": "15251",
         "instructors": [
             "Haeupler",
             "O'Donnell"
-        ]
+        ],
+        "title": "15251: Great Theoretical Ideas in Computer Science",
+        "location": "GHC- 4401"
     },
     {
-        "section": "1",
-        "title": "15251: Great Theoretical Ideas in Computer Science",
-        "location": "GHC- 4401",
-        "end": "2016-01-14T10:20:00",
-        "course": "15251",
         "duration": "1:20:00",
+        "end": "2016-01-14T10:20:00",
         "start": "2016-01-14T09:00:00",
         "friends": [
-            "rishubj"
+            "ildook"
         ],
+        "section": "1",
+        "course": "15251",
         "instructors": [
             "Haeupler",
             "O'Donnell"
-        ]
+        ],
+        "title": "15251: Great Theoretical Ideas in Computer Science",
+        "location": "GHC- 4401"
     },
     {
-        "section": "1",
-        "title": "15251: Great Theoretical Ideas in Computer Science",
-        "location": "DH- 2210",
-        "end": "2016-01-13T19:50:00",
-        "course": "15251",
         "duration": "1:20:00",
+        "end": "2016-01-13T19:50:00",
         "start": "2016-01-13T18:30:00",
         "friends": [
-            "rishubj"
+            "ildook"
         ],
+        "section": "1",
+        "course": "15251",
         "instructors": [
             "Haeupler",
             "O'Donnell"
-        ]
-    },
-    {
-        "section": "F",
+        ],
         "title": "15251: Great Theoretical Ideas in Computer Science",
-        "location": "GHC- 5222",
-        "end": "2016-01-15T15:20:00",
-        "course": "15251",
-        "duration": "0:50:00",
-        "start": "2016-01-15T14:30:00",
-        "friends": [],
-        "instructors": [
-            "TBA"
-        ]
+        "location": "DH- 2210"
     },
     {
-        "section": "1",
-        "title": "21261: Introduction to Ordinary Differential Equations",
-        "location": "WEH- 5403",
-        "end": "2016-01-11T13:20:00",
-        "course": "21261",
         "duration": "0:50:00",
-        "start": "2016-01-11T12:30:00",
-        "friends": [],
-        "instructors": [
-            "Schaeffer"
-        ]
-    },
-    {
-        "section": "1",
-        "title": "21261: Introduction to Ordinary Differential Equations",
-        "location": "WEH- 5403",
-        "end": "2016-01-13T13:20:00",
-        "course": "21261",
-        "duration": "0:50:00",
-        "start": "2016-01-13T12:30:00",
-        "friends": [],
-        "instructors": [
-            "Schaeffer"
-        ]
-    },
-    {
-        "section": "1",
-        "title": "21261: Introduction to Ordinary Differential Equations",
-        "location": "WEH- 5403",
-        "end": "2016-01-15T13:20:00",
-        "course": "21261",
-        "duration": "0:50:00",
-        "start": "2016-01-15T12:30:00",
-        "friends": [],
-        "instructors": [
-            "Schaeffer"
-        ]
-    },
-    {
-        "section": "B",
-        "title": "21261: Introduction to Ordinary Differential Equations",
-        "location": "WEH- 8427",
-        "end": "2016-01-14T15:20:00",
-        "course": "21261",
-        "duration": "0:50:00",
-        "start": "2016-01-14T14:30:00",
-        "friends": [],
-        "instructors": [
-            "Pu"
-        ]
-    },
-    {
-        "section": "1",
-        "title": "21268: Multidimensional Calculus",
-        "location": "HH- B103",
-        "end": "2016-01-11T14:20:00",
-        "course": "21268",
-        "duration": "0:50:00",
-        "start": "2016-01-11T13:30:00",
-        "friends": [],
-        "instructors": [
-            "Schaeffer"
-        ]
-    },
-    {
-        "section": "1",
-        "title": "21268: Multidimensional Calculus",
-        "location": "HH- B103",
-        "end": "2016-01-13T14:20:00",
-        "course": "21268",
-        "duration": "0:50:00",
-        "start": "2016-01-13T13:30:00",
-        "friends": [],
-        "instructors": [
-            "Schaeffer"
-        ]
-    },
-    {
-        "section": "1",
-        "title": "21268: Multidimensional Calculus",
-        "location": "HH- B103",
         "end": "2016-01-15T14:20:00",
-        "course": "21268",
-        "duration": "0:50:00",
         "start": "2016-01-15T13:30:00",
         "friends": [],
+        "section": "E",
+        "course": "15251",
         "instructors": [
-            "Schaeffer"
-        ]
+            "TBA"
+        ],
+        "title": "15251: Great Theoretical Ideas in Computer Science",
+        "location": "DH- 1217"
     },
     {
-        "section": "B",
-        "title": "21268: Multidimensional Calculus",
-        "location": "WEH- 6423",
+        "duration": "1:20:00",
         "end": "2016-01-12T16:20:00",
-        "course": "21268",
-        "duration": "0:50:00",
-        "start": "2016-01-12T15:30:00",
+        "start": "2016-01-12T15:00:00",
         "friends": [],
+        "section": "A",
+        "course": "36217",
         "instructors": [
-            "Mazari Armida"
-        ]
+            "O'Connell"
+        ],
+        "title": "36217: Probability Theory and Random Processes",
+        "location": "PH- 100"
     },
     {
+        "duration": "1:20:00",
+        "end": "2016-01-14T16:20:00",
+        "start": "2016-01-14T15:00:00",
+        "friends": [],
         "section": "A",
-        "title": "33120: Science and Science Fiction",
-        "location": "DH- 1112",
-        "end": "2016-01-11T10:20:00",
-        "course": "33120",
+        "course": "36217",
+        "instructors": [
+            "O'Connell"
+        ],
+        "title": "36217: Probability Theory and Random Processes",
+        "location": "PH- 100"
+    },
+    {
         "duration": "0:50:00",
+        "end": "2016-01-11T14:20:00",
+        "start": "2016-01-11T13:30:00",
+        "friends": [],
+        "section": "2",
+        "course": "79104",
+        "instructors": [
+            "Law"
+        ],
+        "title": "79104: The Modern Nation-state through Film",
+        "location": "PH- 100"
+    },
+    {
+        "duration": "0:50:00",
+        "end": "2016-01-13T14:20:00",
+        "start": "2016-01-13T13:30:00",
+        "friends": [],
+        "section": "2",
+        "course": "79104",
+        "instructors": [
+            "Law"
+        ],
+        "title": "79104: The Modern Nation-state through Film",
+        "location": "PH- 100"
+    },
+    {
+        "duration": "0:50:00",
+        "end": "2016-01-15T13:20:00",
+        "start": "2016-01-15T12:30:00",
+        "friends": [],
+        "section": "T",
+        "course": "79104",
+        "instructors": [
+            "McGrath"
+        ],
+        "title": "79104: Global Histories",
+        "location": "GHC- 4211"
+    },
+    {
+        "duration": "0:50:00",
+        "end": "2016-01-11T10:20:00",
         "start": "2016-01-11T09:30:00",
         "friends": [],
+        "section": "1",
+        "course": "79305",
         "instructors": [
-            "Luokkala"
-        ]
+            "Phillips"
+        ],
+        "title": "79305: Moneyball Nation: Data in American Life",
+        "location": "PH- 125C"
     },
     {
-        "section": "A",
-        "title": "33120: Science and Science Fiction",
-        "location": "DH- 1112",
-        "end": "2016-01-13T10:20:00",
-        "course": "33120",
         "duration": "0:50:00",
+        "end": "2016-01-13T10:20:00",
         "start": "2016-01-13T09:30:00",
         "friends": [],
+        "section": "1",
+        "course": "79305",
         "instructors": [
-            "Luokkala"
-        ]
+            "Phillips"
+        ],
+        "title": "79305: Moneyball Nation: Data in American Life",
+        "location": "PH- 125C"
     },
     {
-        "section": "A",
-        "title": "33120: Science and Science Fiction",
-        "location": "DH- 1112",
-        "end": "2016-01-15T10:20:00",
-        "course": "33120",
         "duration": "0:50:00",
-        "start": "2016-01-15T09:30:00",
+        "end": "2016-01-15T12:20:00",
+        "start": "2016-01-15T11:30:00",
         "friends": [],
+        "section": "B",
+        "course": "79305",
         "instructors": [
-            "Luokkala"
-        ]
+            "Phillips"
+        ],
+        "title": "79305: Moneyball Nation: Data in American Life",
+        "location": "PH- A20"
     },
     {
-        "section": "A",
-        "title": "82252: Korean Cinema and Trans-Asian Confluences",
-        "location": "BH- 235A",
-        "end": "2016-01-12T20:50:00",
-        "course": "82252",
-        "duration": "2:20:00",
-        "start": "2016-01-12T18:30:00",
+        "duration": "0:50:00",
+        "end": "2016-01-11T13:20:00",
+        "start": "2016-01-11T12:30:00",
         "friends": [],
+        "section": "1",
+        "course": "80180",
         "instructors": [
-            "Shin"
-        ]
+            "Werner"
+        ],
+        "title": "80180: Nature of Language",
+        "location": "BH- 136A"
     },
     {
-        "section": "A",
-        "title": "82252: Korean Cinema and Trans-Asian Confluences",
-        "location": "BH- 235A",
-        "end": "2016-01-14T19:50:00",
-        "course": "82252",
-        "duration": "1:20:00",
-        "start": "2016-01-14T18:30:00",
+        "duration": "0:50:00",
+        "end": "2016-01-13T13:20:00",
+        "start": "2016-01-13T12:30:00",
         "friends": [],
+        "section": "1",
+        "course": "80180",
         "instructors": [
-            "Shin"
-        ]
+            "Werner"
+        ],
+        "title": "80180: Nature of Language",
+        "location": "BH- 136A"
+    },
+    {
+        "duration": "0:50:00",
+        "end": "2016-01-15T15:20:00",
+        "start": "2016-01-15T14:30:00",
+        "friends": [],
+        "section": "F",
+        "course": "80180",
+        "instructors": [
+            "Werner"
+        ],
+        "title": "80180: Nature of Language",
+        "location": "WEH- 5310"
     }
 ]
