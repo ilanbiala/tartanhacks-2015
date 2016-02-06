@@ -1,6 +1,7 @@
 from flask import *
 import psycopg2
 from server import *
+from courses import *
 import base64
 import sys
 import urllib.parse
@@ -20,9 +21,9 @@ sql = conn.cursor()
 sql.execute("CREATE TABLE andrewUsers(id VARCHAR(20) PRIMARY KEY, password VARCHAR(20), classes VARCHAR(10000))")
 conn.commit()
 
-@app.route('/index', methods=['get','post'])
+@app.route('/calendar', methods=['get','post'])
 def index():
-	return render_template('index.html')
+	return render_template('calendar.html')
 
 @app.route('/login', methods = ['get','post'])
 def login():
@@ -36,7 +37,7 @@ def login():
 		decrypted_pw = (base64.b64decode(encrypted_pw).decode('utf8'))
 		if user_pw == decrypted_pw:
 			#print("Correct Password", file=sys.stderr)
-			return render_template('index.html')
+			return render_template('calendar.html')
 		else:
 			return render_template('login.html', password_match = 'false')
 
@@ -50,7 +51,7 @@ def register():
 		user_pw_re = (request.form['password_re'])
 
 		if(user_pw == user_pw_re):
-			#Aggregate_data()
+			courses = get_courses(user_id, user_pw)
 			encrypted_pw = base64.b64encode(bytes(user_pw, 'utf8')).decode('utf8')
 			#print("Password Matching %s" %encrypted_pw, type(encrypted_pw), file=sys.stderr)
 			query = "INSERT INTO andrewUsers (id, password) VALUES (%s,%s)"

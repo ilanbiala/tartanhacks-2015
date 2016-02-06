@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="../static/css/login.css">
+<link rel="stylesheet" href="
+https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.4/css/materialize.css">
+<script type="text/javascript" src="/http://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.4/js/materialize.js"></script>
 <html>
 <head>
 
@@ -21,14 +25,18 @@ function initialize() {
 	<section id="content">
 		<form action="/login" method='POST'>
 			<h1>Log In</h1>
-			<div>
-				<input type="text" placeholder="Username" required="" id="username" name="username"/>
+			<div class = "input-field col s12">
+            	<i class="mdi-social-person-outline medium prefix"></i>
+				<input type="text" required="" id="username" name="username" placeholder="Username"/>
 			</div>
-			<div>
+			<div class = "input-field col s12">
+	            <i class="mdi-action-lock-outline medium prefix"></i>
 				<input type="password" placeholder="Password" required="" id="password" name="password"/>
 			</div>
 			<div>
-				<input type="submit" value="Log In" />
+				<button class="btn waves-effect waves-light" type="submit" name="action">Login
+				<i class="mdi-content-send right"></i>
+				</button>
 				<b id="d" /> <br>
 			</div>
 			<div>
