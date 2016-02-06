@@ -24,10 +24,28 @@
   <div id="container">
     <div id="calendar"></div>
     <div id="event-info">
-      <h2 id="course-name"></h2>
-      <h3 class="instructors"></h3>
-      <h3 class="location"></h3>
-      <h3 class="section"></h3>
+      <div class="event">
+        <h2 id="course-name"></h2>
+        <h3 class="instructors"></h3>
+        <h3 class="location"></h3>
+        <h3 class="section"></h3>
+        <h3>Friends in your class</h3>
+        <ul class="friends">
+          <!-- add friends here -->
+        </ul>
+      </div>
+
+      <div class="free">
+        <h2>Friends Available</h2>
+        <ul class="friends">
+          <!-- add friends here -->
+        </ul>
+
+        <h2>Restaurants Open</h2>
+        <ul class="restaurants">
+          <!-- add restaurants here -->
+        </ul>
+      </div>
     </div>
   </div>
 
@@ -41,58 +59,79 @@
       $.get({
         url: '../static/varun_schedule.json',
       }).done(function(userInfo) {
-        var startIndex = 7;
-        var currentIndex = 0;
-        var classColors = {};
+        $.getJSON({
+          url: '../static/freetimes.json',
+        }).done(function(freeSchedule) {
+          var startIndex = 7;
+          var currentIndex = 0;
+          var classColors = {};
 
-        userInfo.schedule.forEach(function(course) {
-          if (!classColors[course.course]) {
-            classColors[course.course] = colors[startIndex + currentIndex];
-            course.color = colors[startIndex + currentIndex];
-            currentIndex++;
-          } else {
-            course.color = classColors[course.course];
-          }
-        });
+          userInfo.schedule.forEach(function(course) {
+            if (!classColors[course.course]) {
+              classColors[course.course] = colors[startIndex + currentIndex];
+              course.color = colors[startIndex + currentIndex];
+              currentIndex++;
+            } else {
+              course.color = classColors[course.course];
+            }
+          });
 
-        $('#calendar').fullCalendar({
-          defaultDate: '2016-01-10',
-          slotWidth: 80,
-          height: 720,
-          header: false,
-          allDaySlot: false,
-          theme: true,
-          defaultView: 'agendaWeek',
-          editable: false,
-          displayEventTime: true,
-          displayEventEnd: true,
-          minTime: '08:00:00',
-          maxTime: '22:00:00',
-          columnFormat: {
-            week: 'ddd' // Only show day of the week names
-          },
-          // businessHours: {
-          //   start: '8:30',
-          //   end: '22:00',
-          //   dow: [0, 1, 2, 3, 4, 5, 6]
-          // },
-          dayClick: function() {
-            // debugger;
-            console.log('a day has been clicked');
-          },
-          eventClick: function(course, event) {
-            $('#event-info').css('display', 'block')
-                            .css('background', course.color);
-            $('#event-info #course-name').text(course.title);
-            var instructors = '';
-            course.instructors.forEach(function(instructor) {
-              instructors += instructor + ', ';
-            });
-            $('#event-info .instructors').text(instructors.substring(0, instructors.length - 2));
-            $('#event-info .location').text(course.location);
-            $('#event-info .section').text(course.section);
-          },
-          events: userInfo.schedule
+          $('#calendar').fullCalendar({
+            defaultDate: '2016-01-10',
+            slotWidth: 80,
+            height: 720,
+            header: false,
+            allDaySlot: false,
+            theme: true,
+            defaultView: 'agendaWeek',
+            editable: false,
+            displayEventTime: true,
+            displayEventEnd: true,
+            minTime: '08:00:00',
+            maxTime: '22:00:00',
+            columnFormat: {
+              week: 'ddd' // Only show day of the week names
+            },
+            dayClick: function() {
+              console.log('a day has been clicked');
+            },
+            eventClick: function(course, evt) {
+              $('#event-info').css('display', 'block')
+                              .css('background', course.color);
+
+              if (course.title) {
+                $('#event-info .event').css('display', 'block');
+                $('#event-info .free').css('display', 'none');
+
+                $('#event-info .event #course-name').text(course.title);
+                var instructors = '';
+                course.instructors.forEach(function(instructor) {
+                  instructors += instructor + ', ';
+                });
+                $('#event-info .event .instructors').text(instructors.substring(0, instructors.length - 2));
+                $('#event-info .event .location').text(course.location);
+                $('#event-info .event .section').text(course.section);
+              } else {
+                $('#event-info .event').css('display', 'none');
+                $('#event-info .free').css('display', 'block');
+
+                var friends = [];
+                course.friends.forEach(function(friend) {
+                  friends.push($('<li>' + friend + '</li>'));
+                });
+                $('#event-info .free .friends').html(friends);
+
+                var restaurants = [];
+                course.restaurants.forEach(function(restaurant) {
+                  restaurants.push($('<li>' + restaurant + '</li>'));
+                });
+                $('#event-info .free .restaurants').html(restaurants);
+              }
+            },
+            events: userInfo.schedule.concat(freeSchedule)
+          });
+        }).fail(function() {
+          alert('freetimes error occured');
         });
       }).fail(function() {
         alert('error occured');
@@ -101,10 +140,14 @@
       $(document).keyup(function(e) {
         if (e.keyCode == 27) { // escape key maps to keycode `27`
           $('#event-info').css('display', 'none');
+          $('#event-info .event').css('display', 'none');
+          $('#event-info .free').css('display', 'none');
         }
       }).click(function(e) {
         if (e.target.nodeName === 'HTML') {
           $('#event-info').css('display', 'none');
+          $('#event-info .event').css('display', 'none');
+          $('#event-info .free').css('display', 'none');
         }
       });
     });

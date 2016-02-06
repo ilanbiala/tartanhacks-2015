@@ -110,8 +110,16 @@ Colors: Use the following - https://www.google.com/design/spec/style/color.html#
   background: yellow;
 }
 
+#event-info .event {
+  display: none;
+}
+
+#event-info .free {
+  display: none;
+}
+
 .free-time {
-  /*visibility: hidden;*/
+  /*opacity: 0 !important;*/
 }
 
 /* removes random empty box */
