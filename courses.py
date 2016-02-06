@@ -2,10 +2,22 @@ from cmu_auth import authenticate
 import base64, ics, json
 from icalendar import Calendar, Event
 from datetime import datetime, timedelta
+import requests
 
 def get_courses(username, password, semester = 'S16'):
 
-    s = authenticate('https://s3.andrew.cmu.edu/sio/index.html', username, password )
+
+    try:
+        s = authenticate('https://s3.andrew.cmu.edu/sio/index.html', username, password )
+    except KeyError:
+        print("Incorrect Password")
+        return None
+    except:
+        print("An error has occurred")
+        return None
+
+    user_data = requests.get("http://apis.scottylabs.org/directory/v1/andrewID/{}".format(username)).json()
+
     ics_file = s.get('https://s3.andrew.cmu.edu/sio/secure/export/schedule/{0}_semester.ics?semester={0}'.format(semester)).text
 
     cal = Calendar.from_ical(ics_file)
@@ -15,7 +27,7 @@ def get_courses(username, password, semester = 'S16'):
 
 
     day_map = {'SU': 0, 'MO': 1, 'TU': 2, 'WE': 3, 'TH': 4, 'FR': 5, 'SA': 6}
-    course_data = {'courses': {}, 'schedule': []}
+    course_data = {'user': user_data, 'courses': {}, 'schedule': []}
     for event in cal.walk():
         if event.name != 'VEVENT': continue
 
