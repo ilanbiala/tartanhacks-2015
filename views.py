@@ -22,7 +22,7 @@ conn = psycopg2.connect(
 # conn.commit()
 
 @app.route('/calendar', methods=['get','post'])
-def index():
+def calendar():
 	if request.method == 'POST':
 		user_id = (request.form['username'])
 		user_pw = (request.form['password'])
@@ -40,7 +40,7 @@ def index():
 	return render_template('calendar.html')
 
 @app.route('/', methods = ['get','post'])
-def register():
+def index():
 	if request.method == 'POST':
 		user_id = (request.form['username'])
 		user_pw = (request.form['password'])
