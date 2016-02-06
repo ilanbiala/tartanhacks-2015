@@ -19,16 +19,14 @@ def get_courses(username, password, semester = 'S16'):
 
         current_class = {'begin': str(begin), 'end': str(end), 'duration': str(duration), 'location': location, 'section': course_section}
 
-        if course_section.isdigit():
-            if course_number in courses:
-                courses[course_number]['classes'].append(current_class)
-                courses[course_number]['instructors'] = instructors
-            else:
-                courses[course_number] = {'title': course_title, 'number': course_number, 'instructors': instructors, 'classes': [current_class]}
-        else:
-            if course_number in courses:
-                courses[course_number]['classes'].append(current_class)
-            else:
-                courses[course_number] = {'title': course_title, 'number': course_number, 'instructors': [], 'classes': [current_class]}
+        instructors = set(instructors)
+        instructors.discard("TBA")
 
-        return courses
+        if course_number in courses:
+            courses[course_number]['classes'].append(current_class)
+            instructors.update(set(courses[course_number]['instructors']))
+            courses[course_number]['instructors'] = list(instructors)
+        else:
+            courses[course_number] = {'title': course_title, 'number': course_number, 'instructors': list(instructors), 'classes': [current_class]}
+
+    return courses
