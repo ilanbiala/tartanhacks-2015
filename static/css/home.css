@@ -472,12 +472,16 @@ footer .footer-below {
     background-color: #fafafa;
     padding: 0;
     max-height: 50% !important; 
-    width: 20% !important;
+    width: 25% !important;
     margin: auto;
-    overflow-y: auto;
+    overflow-y: hidden;
     border-radius: 2px;
     will-change: top, opacity;
 }
 .modal-body{
     padding:0px !important;
+}
+.input-field{
+    left:-70% !important;
+    width: 160% !important;
 }

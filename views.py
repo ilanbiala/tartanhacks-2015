@@ -47,7 +47,7 @@ def calendar():
 					users_dict[i[0]]=i[5]
 
 			free_time=['']
-			#free_time = freetime(users_dict, user[0][5])
+			#free_time=freetime(users_dict, user[0][5])
 			print(user[0][5],file=sys.stderr)
 
 			return render_template('calendar.html', freeSchedule = free_time, userInfo = user[0][5])
@@ -65,12 +65,17 @@ def index():
 
 		if(user_pw == user_pw_re):
 			courses = get_courses(user_id, user_pw)
+
 			encrypted_pw = base64.b64encode(bytes(user_pw, 'utf8')).decode('utf8')
 			#print("Password Matching %s" %encrypted_pw, type(encrypted_pw), file=sys.stderr)
 			query = "INSERT INTO andrewUsers (id,  firstname, lastname, fullname, password, classes) VALUES (%s,%s,%s,%s,%s,%s)"
-			data  = (user_id, first, last, full, encrypted_pw, courses)
+			first = courses['user']['first_name']
+			last = courses['user']['last_name']
+			full = '{} {}'.format(first,last)
+			data  = (user_id, first, last, full, encrypted_pw, courses['schedule'])
 			sql.execute(query,data)
 			conn.commit()
+
 			return render_template('index.html', password_match = 'true')
 
 		else:
