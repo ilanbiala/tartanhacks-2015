@@ -59,7 +59,7 @@
     var freeSchedule = '{{ freeSchedule }}';
     $(document).ready(function() {
       $.getJSON({
-        url: '../static/varun_schedule.json',
+        url: '../static/my_data.json',
       }).done(function(userInfo) {
         $.getJSON({
           url: '../static/freetimes.json',
@@ -113,6 +113,12 @@
                 $('#event-info .event .instructors').text(instructors.substring(0, instructors.length - 2));
                 $('#event-info .event .location').text(course.location);
                 $('#event-info .event .section').text(course.section);
+
+                var friends = [];
+                course.friends.forEach(function(friend) {
+                  friends.push($('<li>' + friend + '</li>'));
+                });
+                $('#event-info .event .friends').html(friends);
               } else {
                 $('#event-info .event').css('display', 'none');
                 $('#event-info .free').css('display', 'block');

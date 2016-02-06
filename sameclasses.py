@@ -827,8 +827,8 @@ def sameclasses(users, my_data):
     				course["friends"].append(name)
     				break
 
-    # with open('static/freetimes.json', 'w') as outfile:
-    #   json.dump(all_time_free, outfile, indent=4)
+    with open('static/my_data.json', 'w') as outfile:
+      json.dump(my_data, outfile, indent=4)
 
     return my_data
 
