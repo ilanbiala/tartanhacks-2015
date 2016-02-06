@@ -30,7 +30,8 @@ def get_courses(username, password, semester = 'S16'):
         location = event.get('location').strip()
 
         if not (course_number in course_data['courses']):
-            course_data['courses'][course_number] = classes['courses'][course_number]
+            if not (course_number in classes['courses']):
+                course_data['courses'][course_number] = classes['courses'][course_number]
 
         for day in days:
             delta = timedelta(days = day - begin.isoweekday())
