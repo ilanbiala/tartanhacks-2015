@@ -72,7 +72,7 @@ def index():
 			first = courses['user']['first_name']
 			last = courses['user']['last_name']
 			full = '{} {}'.format(first,last)
-			data  = (user_id, first, last, full, encrypted_pw, courses['schedule'])
+			data  = (user_id, first, last, full, encrypted_pw, str(courses['schedule']))
 			sql.execute(query,data)
 			conn.commit()
 
