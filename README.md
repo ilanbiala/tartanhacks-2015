@@ -1,3 +1,3 @@
 # CMU Meets
 
-CMU Meets will connect to your SIO Account and analyze your schedule to give you suggestions on when you can eat lunch.
+CMU Meets allows you to find out which friends are in your classes, when you both are free, and places on campus to meet up, all by just linking your SIO and Facebook accounts.
