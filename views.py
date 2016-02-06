@@ -31,10 +31,23 @@ def calendar():
 		query = "SELECT * FROM andrewUsers where id = '%s'" % user_id
 		sql.execute(query)
 		user = sql.fetchall()
+
+		if(user==None): 
+			courses = get_courses(user_id, user_pw)
+
+			encrypted_pw = base64.b64encode(bytes(user_pw, 'utf8')).decode('utf8')
+			#print("Password Matching %s" %encrypted_pw, type(encrypted_pw), file=sys.stderr)
+			query = "INSERT INTO andrewUsers (id,  firstname, lastname, fullname, password, classes) VALUES (%s,%s,%s,%s,%s,%s)"
+			first = courses['user']['first_name']
+			last = courses['user']['last_name']
+			full = '{} {}'.format(first,last)
+			data  = (user_id, first, last, full, encrypted_pw, str(courses['schedule']))
+			sql.execute(query,data)
+			conn.commit()
+
 		stored_pw = user[0][4]
 		encrypted_pw = base64.b64encode(bytes(user_pw, 'utf8')).decode('utf8')
 		
-		print(stored_pw,encrypted_pw, file=sys.stderr)
 		if stored_pw == encrypted_pw:
 			#print("Correct Password", file=sys.stderr)
 
@@ -66,29 +79,6 @@ def calendar():
 
 @app.route('/', methods = ['get','post'])
 def index():
-	if request.method == 'POST':
-		user_id = (request.form['username'])
-		user_pw = (request.form['password'])
-		user_pw_re = (request.form['password_re'])
-
-		if(user_pw == user_pw_re):
-			courses = get_courses(user_id, user_pw)
-
-			encrypted_pw = base64.b64encode(bytes(user_pw, 'utf8')).decode('utf8')
-			#print("Password Matching %s" %encrypted_pw, type(encrypted_pw), file=sys.stderr)
-			query = "INSERT INTO andrewUsers (id,  firstname, lastname, fullname, password, classes) VALUES (%s,%s,%s,%s,%s,%s)"
-			first = courses['user']['first_name']
-			last = courses['user']['last_name']
-			full = '{} {}'.format(first,last)
-			data  = (user_id, first, last, full, encrypted_pw, str(courses['schedule']))
-			sql.execute(query,data)
-			conn.commit()
-
-			return render_template('index.html', password_match = 'true')
-
-		else:
-			return render_template('index.html', password_match = 'false')
-
 	return render_template('index.html')
 
 
