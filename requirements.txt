@@ -1,2 +1,5 @@
 flask
-postgresql
+psycopg2
+cmu_auth
+ics
+icalendar
