@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<script>
+function initialize() {
+    password_match = '{{ password_match }}'
+    if(password_match == 'false'){
+    alert("Wrong username/password");
+    }
+}
+</script>
+
 <head>
 
     <meta charset="utf-8">
@@ -32,7 +41,7 @@
 
 </head>
 
-<body id="page-top" class="index">
+<body id="page-top" class="index" onload="initialize()">
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
