@@ -78,6 +78,13 @@
     var userInfo = {{ userInfo }};
     var freeSchedule = {{ freeSchedule }};
     $(document).ready(function() {
+      var pictures = {
+        "varunsha": "https://scontent.xx.fbcdn.net/hprofile-xta1/v/t1.0-1/p50x50/11826061_404456643098006_1821143164639682168_n.jpg?oh=7307237145060370a2e9eb33d90c08c1&oe=57299938",
+        "ildook": "https://scontent.xx.fbcdn.net/hprofile-xtl1/v/t1.0-1/p50x50/10420200_10207050637414065_3317193553674960231_n.jpg?oh=3baed6b461506ecdf55cd008ed93eecb&oe=572B9B35",
+        "ibiala": "https://scontent.xx.fbcdn.net/hprofile-xap1/v/t1.0-1/c4.0.50.50/p50x50/1522276_10204298160834149_7527016953740784053_n.jpg?oh=7a456785f2de9f22fe443199b33861f6&oe=5728EDFB",
+        "rishubj": "https://scontent.xx.fbcdn.net/hprofile-xft1/v/t1.0-1/c2.1.50.50/p56x56/11159970_1018301284848964_4495947732364830719_n.jpg?oh=6c955d2fc8328f981c3b74f8276fcd47&oe=57312695"
+      };
+
       var startIndex = 7;
       var currentIndex = 0;
       var classColors = {};
@@ -113,7 +120,7 @@
         },
         eventClick: function(course, evt) {
           $('#event-info').css('display', 'block')
-                          .css('background', course.color);
+                          .css('background', course.color || '#AFB42B');
 
           if (course.title) {
             $('#event-info .event').css('display', 'block');
@@ -130,7 +137,8 @@
 
             var friends = [];
             course.friends.forEach(function(friend) {
-              friends.push($('<li class="collection-item">' + friend + '</li>'));
+              li = '<li class="collection-item avatar"><img src="' + pictures[friend] + '" alt="" class="circle">' + '<span class="title">' + friend + '</span>' + '</li>';
+              friends.push($(li));
             });
             $('#event-info .event .friends').html(friends);
           } else {
@@ -140,7 +148,8 @@
             $('#event-info .free #time').text('Time: ' + $.fullCalendar.formatRange(course.start, course.end, 'h:mm'));
             var friends = [];
             course.friends.forEach(function(friend) {
-              friends.push($('<li class="collection-item">' + friend + '</li>'));
+              li = '<li class="collection-item avatar"><img src="' + pictures[friend] + '" alt="" class="circle">' + '<span class="title">' + friend + '</span>' + '</li>';
+              friends.push($(li));
             });
             $('#event-info .free .friends').html(friends);
 
