@@ -54,7 +54,7 @@ hr.star-primary:after {
     top: -.8em;
     padding: 0 .25em;
     font-family: FontAwesome;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 hr.star-light {
@@ -471,7 +471,7 @@ footer .footer-below {
     right: 0;
     background-color: #fafafa;
     padding: 0;
-    max-height: 330px !important; 
+    max-height: 330px !important;
     width: 420px !important;
     margin: auto;
     overflow-y: hidden !important;
